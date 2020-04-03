@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>缇坦妮雅歼殛战</name>
+    <zone>缇坦妮雅歼殛战</zone>
+    <rev>0.51</rev>
+    <author>摩杜纳Souma</author>
+    <description>国服极妖灵王时间轴。</description>
+    <license>CC BY-SA</license>
+    <locale>CN</locale>
+    <entry>P1</entry>
+    <start>00:0039:(战斗开始！|戦闘開始！)</start>
+
+    <default target-element="Activity" target-attr="notice-o" value="-1"/>
+    
+    <!-- tts -->
+    <t name="钢铁" sync="14:3D4C:" notice="钢铁远离"/>
+    <t name="月环" sync="14:3D4D:" notice="月环靠近"/>
+    <t name="欢快的安息日" sync="14:3D4B:" notice="AoE"/>
+    <t name="水之符文" sync="14:3D45:" notice="水圈"/>
+    <t name="火之符文" sync="14:3D47:" notice="分摊"/>
+    <t name="魔之符文" sync="14:3D4A:" notice="扇形死刑"/>
+    <t name="荆棘链" sync="14:42D7:" notice="锁链"/>
+    <t name="雷电符文" sync="] 15:.{8}:(缇坦妮雅|ティターニア):3D28:" notice="6连截线"/>
+    <t name="妖灵光" sync="14:3D2C:" notice="三连死刑"/>
+    <t name="冰之符文" sync="14:3D2A:" notice="九连环"/>
+    <!-- <t name="豌豆炸弹" sync="14:3D34:|14:3D3F:" notice="散开"/> -->
+    <t name="殴打" sync="14:3D37:" notice="MT死刑"/>
+    <t name="强烈重击" sync="14:3D36:" notice="ST死刑"/>
+    <t name="帕克的吐息" sync="14:3D41:" notice="分摊"/>
+    <t name="P2拉线预告" sync="14:40E2:" notice="准备拉线" notice-o="5"/>
+    <t name="细语微风" sync="14:3F70:" notice="AoE"/>
+    <t name="欢快的安息日" sync="14:3DAE:" notice="狂暴"/>
+
+    <!-- 时间轴 -->
+    <s name="P1">
+        <a time="00:09" text="[AoE]欢快的安息日" sync="14:3D4B:" style="PURPLE"/>
+        <a time="00:22" text="[钢铁]幻之符文" sync="14:3D4C:"/>
+        <a time="00:35" text="[踩塔]水之符文" sync="14:3D45:"/>
+        <a time="00:54" text="[分摊]火之符文" sync="14:3D47:" style="TANK"/>
+        <a time="01:16" text="[扇形死刑]魔之符文" sync="14:3D4A:" style="DPS"/>
+        <a time="01:26" text="[锁链]荆棘链" sync="14:42D7:"/>
+        <a time="01:41" text="[月环]幻之符文" sync="14:3D4D:"/>
+        <a time="01:54" text="[无伤害]仲夏夜之梦" sync="14:3D30:"/>
+        <a time="01:55" text="[截线]雷电符文" sync="] 15:.{8}:(缇坦妮雅|ティターニア):3D28:" style="YELLOW"/>
+        <a time="02:51" text="[三连死刑]妖灵光" sync="14:3D2C:" style="DPS"/>
+        <a time="03:09" text="[树枝]根之符文" sync="14:3D2E:"/>
+        <a time="03:15" text="[锁链]荆棘链" sync="14:42D7:"/>
+        <a time="03:33" text="[扇形死刑]魔之符文" sync="14:3D4A:" style="DPS"/>
+        <a time="03:43" text="[九连环]冰之符文" sync="14:3D2A:"/>
+        <a time="03:58" text="[点名]隆起" sync="14:421E:" style="YELLOW"/>
+        <a time="04:05" text="[月环]幻之符文" sync="14:3D4D:"/>
+        <a time="04:17" text="BOSS上天"/>
+        <a time="04:20" text="小怪"/>
+        <a time="04:32" text="[点名]豌豆炸弹" sync="14:3D34:" style="YELLOW"/>
+        <a time="04:32" text="[射线]绿叶风暴" sync="14:3D38:"/>
+        <a time="04:32" text="[直条]青翠柔风" sync="14:3F82:"/>
+        <a time="04:38" text="[射线]绿叶风暴" sync="14:3D39:"/>
+        <a time="04:41" text="[MT死刑]殴打" sync="14:3D37:" style="DPS"/>
+        <a time="04:44" text="[ST死刑]强烈重击" sync="14:3D36:" style="DPS"/>
+        <a time="04:44" text="[AoE]细语微风" sync="14:3F70:" style="PURPLE"/>
+        <a time="04:53" text="[MT死刑]殴打" sync="14:3D37:" style="DPS"/>
+        <a time="04:55" text="[点名]豌豆炸弹" sync="14:3D34:" style="YELLOW"/>
+        <a time="05:07" text="[ST死刑]强烈重击" sync="14:3D36:" style="DPS"/>
+        <t name="P2后半" sync="00:0044:缇坦妮雅:我的孩子！我的孩子！ 变大！变大！|00:0044:ティターニア:アノ子モ、コノ子モ.+" goto="P2后半"/>
+    </s>
+
+    <s name="P2后半">
+        <a time="00:17" text="[点名]豌豆炸弹" sync="14:3D3F:" style="YELLOW"/>
+        <a time="00:17" text="[射线]绿叶风暴" sync="14:3D49:"/>
+        <a time="00:24" text="[分摊]帕克的吐息" sync="14:3D41:" style="TANK"/>
+        <a time="00:33" text="[AoE]细语微风" sync="14:40E2:" style="PURPLE"/>
+        <a time="00:43" text="[击退拉线]帕克的指责" sync="14:3D43:"/>
+        <a time="00:48" text="[射线]绿叶风暴" sync="14:3D49:"/>
+        <a time="00:56" text="[分摊]帕克的吐息" sync="14:3D41:" style="TANK"/>
+        <a time="00:56" text="[点名]豌豆炸弹" sync="14:3D3F:" style="YELLOW"/>
+        <a time="01:06" text="[AoE]帕克的随想" sync="14:3D3A:" style="PURPLE"/>
+        <t name="P3" sync="00:0044:缇坦妮雅:啊哈哈！好有趣！ 继续玩吧！继续玩吧！|00:0044:ティターニア:アハハ、楽シイ……！ モット、モット……アソビ、マショ！" goto="P3"/>
+    </s>
+
+    <s name="P3">
+        <a time="00:09" text="[踩塔]水之符文" sync="14:3D45:"/>
+        <a time="00:15" text="[随机]幻之符文" sync="14:3D4C:|14:3D4D:"/>
+        <a time="00:29" text="[分摊]火之符文" sync="14:3D47:" style="TANK"/>
+        <a time="00:35" text="[树枝]根之符文" sync="14:3D2E:"/>
+        <a time="01:01" text="[相反]幻之符文" sync="14:3D4C:|14:3D4D:"/>
+        <a time="01:14" text="[AoE]欢快的安息日" sync="14:3D4B:" style="PURPLE"/>
+        <a time="01:25" text="[死刑]妖灵光" sync="14:3D2C:" style="DPS"/>
+        <a time="01:52" text="[九连环]冰之符文" sync="14:3D2A:"/>
+        <a time="01:56" text="[点名]隆起" sync="14:421E:" style="YELLOW"/>
+        <a time="02:05" text="[AoE]欢快的安息日" sync="14:3D4B:" style="PURPLE"/>
+        <a time="02:18" text="[截线]雷电符文" sync="] 15:.{8}:(缇坦妮雅|ティターニア):3D28:" style="YELLOW"/>
+        <a time="03:00" text="[树枝]根之符文" sync="14:3D2E:"/>
+        <a time="03:06" text="[锁链]荆棘链" sync="14:42D7:"/>
+        <a time="03:27" text="[随机]幻之符文" sync="14:3D4C:|14:3D4D:"/>
+        <a time="03:33" text="[相反]幻之符文" sync="14:3D4C:|14:3D4D:"/>
+        <a time="03:52" text="[AoE]欢快的安息日" sync="14:3D4B:" style="PURPLE"/>
+        <a time="03:59" text="[扇形死刑]魔之符文" sync="14:3D4A:" style="DPS"/>
+        <a time="04:05" text="[狂暴]欢快的安息日" sync="14:3DAE:" sync-s="-30" style="NOTICE"/>
+    </s>
+</timeline>

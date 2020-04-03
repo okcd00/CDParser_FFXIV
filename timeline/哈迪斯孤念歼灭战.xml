@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>哈迪斯孤念歼灭战</name>
+    <rev>2.5.1</rev>
+    <author>旅人栈桥:弗萝北</author>
+    <description>极哈迪斯时间轴。</description>
+    <zone>哈迪斯孤念歼灭战</zone>
+    <locale>CN</locale>
+    <entry>P1</entry>
+    <start>0039:战斗开始</start>
+      
+    <!-- -4为提前4秒播报，可按需更改 -->
+        <default target-element="Activity" target-attr="notice-o" value="-4"/>
+        <default target-element="Activity" target-attr="notice-d" value="Both"/>
+        <default target-element="Activity" target-attr="sync-s" value="-5"/>
+        <default target-element="Activity" target-attr="sync-e" value="5"/>
+
+    <s name="P1">
+        <a time="000" sync="使出你的全力吧！我也会以完全形态来应战！" />
+        <a time="006" sync="哈迪斯:古代双重……看你往哪逃！" />
+        <a time="007" text="[无效果]古代双重" sync="哈迪斯 starts using 古代双重" notice="古代双重" />
+        <a time="013" text="[八方剑]暗影扩散 x2" sync="哈迪斯 starts using 暗影扩散" notice="8方分散" />
+        <a time="024" sync="哈迪斯:这就是暗之力！" />
+        <a time="025" text="[尖刺]失信 x2" sync="哈迪斯 starts using 失信" notice="失信2连 看背面" />
+        <a time="036" text="[死刑]贪婪突袭 x2" sync="哈迪斯 starts using 贪婪突袭" notice="MT2连死刑" />
+        <a time="047" sync="哈迪斯:我的魔力会将你碾碎！" />
+        <a time="048" text="[球/镜]魔法阵记述" sync="哈迪斯 starts using 魔法阵记述" notice="魔法阵记述" />
+        <a time="054" sync="哈迪斯 starts using 魔法阵启动" notice="去安全点" />
+        <a time="064" sync="哈迪斯:让你们知道什么是真正的魔法！" />
+        <a time="065" text="[天降法阵]背信" sync="哈迪斯 starts using 背信" notice="躲开魔法阵" />
+        <a time="104" text="[镜/球]魔法阵记述" sync="哈迪斯 starts using 魔法阵记述" notice="魔法阵记述" />
+        <a time="110" sync="哈迪斯 starts using 魔法阵启动" notice="去安全点" />
+        <a time="124" text="[八方剑]暗影扩散 x2" sync="哈迪斯 starts using 暗影扩散" notice="8方分散" />
+        <a time="135" text="[尖刺]失信 x2" sync="哈迪斯 starts using 失信" notice="失信2连 看背面" />
+        <a time="146" text="[死刑]贪婪突袭 x2" sync="哈迪斯 starts using 贪婪突袭" notice="MT2连死刑" />
+        <a time="200" text="过场" sync="哈迪斯:来吧，尊严王！" goto="那布里亚勒斯之影" sync-s="-80"/>
+        <a time="205" text="进入P2" sync="哈迪斯:用你的威严令大地都为之震颤吧！" goto="P2" sync-s="-50"/>
+    </s>
+
+    <s name="P2">
+        <a time="004" sync="哈迪斯:用你的威严令大地都为之震颤吧！" />
+        <a time="012" text="[AOE]爆震" sync="那布里亚勒斯之影 starts using 爆震" notice="爆震" />
+        <a time="013" text="[左上/右下]昏暗" sync="古代人之影 starts using 昏暗" notice="DPS散开吃喷水 注意T位置" />
+        <a time="029" text="[DH分摊]古代狂水和黑暗" sync="古代人之影 starts using 古代狂水" notice="D奶分摊 T圆形AOE" />
+        <a time="039" text="[AOE]爆震" sync="那布里亚勒斯之影的爆震" notice="爆震发动 准备过场" />
+        <a time="044" sync="哈迪斯:深渊的祭司和已逝的殉教者呀，站起来！" />
+        <a time="048" sync="哈迪斯:用你们坚定不移的信念之炎与无可动摇的坚韧之冰，为叛逆者带去死亡吧！" />
+        <a time="053" text="[冰火]冰结球" sync="以格约姆之影 starts using 冰结球" notice="以格冰 拉哈火" />
+        <a time="072" text="[T死刑]炽炎" sync="拉哈布雷亚之影 starts using 炽炎" />  <!--notice="炽炎 T注意减伤"-->
+        <a time="072" text="[TH接线]黑暗玄冰" sync="古代人之影 starts using 黑暗玄冰" notice="T奶看属性截线" />
+        <a time="083" text="[冰火]冰结球" sync="以格约姆之影 starts using 冰结球" notice="属性变换 更换目标" />
+        <a time="097" text="[死刑]炽炎" sync="拉哈布雷亚之影 starts using 炽炎" />  <!--notice="炽炎 T注意减伤"-->
+        <a time="150" text="过场" sync="哈迪斯:你们强大的意志已超越肉体与灵魂的境界！" goto="P4" sync-s="-80" />
+        <a time="155" text="换阶段" sync="哈迪斯:用那比任何人都厚重的灵魂，将稀薄的灵魂侵蚀吧！" goto="P4" sync-s="-80" />
+    </s>
+
+    <s name="P4">
+        <a time="004" sync="哈迪斯:用那比任何人都厚重的灵魂，将稀薄的灵魂侵蚀吧！" />
+        <a time="008" text="[背对击退]法则变更" sync="至尊无影之影 starts using 法则变更" notice="法则变更 等待震击结束集合" />
+        <a time="022" text="[全队DOT]毒雾" sync="至尊无影之影 starts using 毒雾" notice="全屏DOT 注意血量" />
+        <a time="039" sync="至尊无影之影的「毒雾」" notice="毒雾结束" />
+        <a time="045" text="[背面集合]混沌之巅" sync="至尊无影之影 starts using 混沌之巅" notice="点名MT范围死刑远离MT" />
+        <a time="056" text="[DH分摊]米吉多烈焰" sync="至尊无影之影 starts using 米吉多烈焰" notice="点名奶 分2组分摊" />
+        <a time="066" text="[AOE]暗影核爆" sync="至尊无影之影 starts using 暗影核爆" notice="AOE注意回复" />
+        <a time="079" text="[远程引导]古火喷发" sync="至尊无影之影 starts using 古火喷发" notice="远程诱导AOE" />
+        <a time="120" text="换阶段" sync="哈迪斯:来吧，接下来就是我们意志的比拼了！" goto="P5" sync-s="-80" />
+    </s>
+
+    <s name="P5">
+        <a time="004" sync="哈迪斯:沉睡于幽冥之界的同胞们……将你们的梦与力量托付给我！" />
+        <a time="010" sync="哈迪斯:你们的思念，你们的心愿，你们的期盼，全部都由我来背负！" />
+        <a time="020" sync="哈迪斯:星球的未来掌握在我的手中！" />
+        <a time="030" sync="哈迪斯:同胞的祈祷将变成希望之翼！" />
+        <a time="037" sync="哈迪斯:这就是最古老的魔法师！这就是我们的荣耀！" />
+        <a time="044" sync="哈迪斯:同胞们，展现你们的意志！" />
+        <a time="045" text="[T踩塔]尊严王的记忆" sync="哈迪斯 starts using 尊严王的记忆" notice="T踩塔，奶石牢远离人群去左上或右下" />
+        <a time="052" text="[H石牢]囚禁" sync="哈迪斯 starts using 囚禁" notice="被点名奶去左上或右下" />
+        <a time="058" text="[H石牢]囚禁发动" />
+        <a time="065" text="[打石牢]逝者的合唱" sync="哈迪斯 starts using 逝者的合唱" notice="集中火力打石牢，奶注意T血量" />
+        <a time="077" sync="哈迪斯:同胞们，许下你们的愿望！" />
+        <a time="078" text="[站点等击退]殉教者的记忆" sync="哈迪斯 starts using 殉教者的记忆" notice="T奶分摊 DPS圆形AOE同时击退" />
+        <a time="087" text="[南侧击退]逝者的哀嚎" sync="哈迪斯 starts using 逝者的哀嚎" notice="准备击退" />
+        <a time="096" sync="哈迪斯:同胞们，一同祈祷吧！" />
+        <a time="097" text="[躲线引导]深渊祭司的记忆" sync="哈迪斯 starts using 深渊祭司的记忆" notice="躲开射线，远程DPS引导放陷阱，其他人分2组分摊" />
+        <a time="104" text="[躲射线]双尖枪" sync="哈迪斯 starts using 双尖枪" notice="躲开射线" />
+        <a time="104" text="[放陷阱]黑暗咒印" sync="哈迪斯 starts using 黑暗咒印" notice="躲开圆形区域" />
+        <a time="119" text="[远离中场]暗影流" sync="哈迪斯 starts using 暗影流" notice="远离中间半场" />
+        <a time="125" text="[进中场]冥王净化" sync="哈迪斯 starts using 冥王净化" notice="来中场" />
+        <a time="133" text="[进中场]冥王净化" sync="哈迪斯 starts using 冥王净化" notice="来中场" />
+        <a time="146" text="[远离中场]暗影流" sync="哈迪斯 starts using 暗影流" notice="远离中间半场。" />
+        <a time="180" sync="哈迪斯:坠入绝望的深渊吧……" goto="P7" sync-s="-80" />
+    </s>
+
+    <s name="P7">
+        <a time="001" text="[连打]囚禁生命" sync="哈迪斯 starts using 囚禁生命" notice="过场按键连打" />
+        <a time="010" sync="哈迪斯:以戒律王佐迪亚克之名，我哈迪斯在此下令……" />
+        <a time="016" sync="哈迪斯:所有沉睡中的同胞，将你们的力量汇成无尽暗影……" />
+        <a time="022" sync="哈迪斯:终结这个浮华的世界！" />
+        <a time="044" sync="哈迪斯:光之力失控了？不对……" />
+        <a time="050" sync="哈迪斯:这令人生厌的祝福之光！" />
+        <a time="055" sync="哈迪斯:但我是不会输的！" />
+        <a time="073" sync="哈迪斯:应该得到救赎的是我们！" />
+        <a time="083" sync="哈迪斯:被黑暗吞噬吧！" />
+        <a time="084" text="[地火]黑暗奔流" sync="哈迪斯 starts using 黑暗奔流" notice="地火躲开或去安全点" />
+        <a time="107" text="[AOE]巨人之战" sync="哈迪斯 starts using 巨人之战" notice="全屏AOE注意减伤和回复" />
+        <a time="115" sync="哈迪斯:我们才是星球真正的主人！我是……绝对不会放手的！" />
+        <a time="116" text="[AOE]四重强击" sync="哈迪斯 starts using 四重强击" notice="2次连续AOE  双T注意踩塔 奶注意回复" />
+        <a time="121" text="[AOE]四重强击" sync="哈迪斯 starts using 四重强击" notice="四重强击发动T踩塔 回复" />
+        <a time="130" sync="哈迪斯:魂飞魄散吧！" />
+        <a time="133" text="[T踩塔]接双拳" />
+        <a time="142" text="[地火]黑暗奔流" sync="哈迪斯 starts using 黑暗奔流" notice="地火躲开" />
+        <a time="165" text="[AOE]巨人之战" sync="哈迪斯 starts using 巨人之战" notice="全屏AOE注意减伤和回复" />
+        <a time="174" text="[AOE]四重强击" sync="哈迪斯 starts using 四重强击" notice="2次连续AOE  双T踩塔 注意回复。" />
+        <a time="191" text="[T踩塔]接双拳" />
+        <a time="223" text="狂暴" />
+    </s>
+</timeline>

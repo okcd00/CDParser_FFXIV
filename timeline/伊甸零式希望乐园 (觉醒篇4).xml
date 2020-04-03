@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>伊甸零式希望乐园：觉醒篇 4</name>
+    <zone>伊甸零式希望乐园 (觉醒之章4),Eden's Gate: Sepulture (Savage)</zone>
+    <rev>v1.2.3</rev>
+    <author>旅人栈桥:弗萝北</author>
+    <description>E4S时间轴。</description>
+    <license>CC BY-SA</license>
+    <locale>@(Model.Locale)</locale>
+    <entry>P1</entry>
+    <start>00:0039:(戦闘開始！|Engage!|战斗开始！)</start>
+
+    <s name="P1">
+        <a time="00:10" sync="14:4116:"/>
+        <a time="00:15" text="[死刑]范围崩岩" sync="1[56]:.*:4116:" style="死刑"/>
+        <a time="00:34" text="[地板]大地之重" sync="15:.*:4108:"/>
+        <a time="00:37" text="[黄分散]去角落(北)" style="AoE"/>
+        <a time="00:39" text="[扩散]邪土(对侧角)"/>
+        <a time="00:48" text="[橙分摊]对角穿过" style="AoE"/>
+        <a time="00:54" text="[AoE]大地之号" style="AoE"/>
+        <a time="01:06" text="[跳跃]大地粉碎(防击退)" style="AoE"/>
+        <a time="01:10" text="--分支判定--"/>
+        <t sync="15:.*:40E8:">
+            <load target="车人" truncate="true" />
+            <load target="P2"/>
+        </t>
+        <t sync="15:.*:40E6:">
+            <load target="人车" truncate="true" />
+            <load target="P2"/>
+        </t>
+    </s>
+
+    <s name="车人">
+        <a time="00:00" text="[车]大地之车轮" sync="15:.*:40E8:"/>
+        <a time="00:05" text="[击退]断裂带"/>
+        <a time="00:07" text="[侧面]橙标1/黄标2" style="AoE"/>
+        <a time="00:11" text="[MT挡车]断裂带" sync="1[56]:.*:411E:"/>
+        <a time="00:16" text="[月环]震级5.0"/>
+        <a time="00:19" text="大地之铠"/>
+        <a time="00:21" text="[黄分散]八方分散" style="AoE"/>
+        
+        <a time="00:37" text="[陨石]岩层崩落(南)" style="AoE"/>
+        <a time="00:45" text="[观察]爆破岩石"/>
+        <a time="00:57" text="[掩体]地震波(去标点)"/>
+        <a time="00:59" text="[3穿1]第一排爆炸(穿)"/>
+        <a time="01:10" text="[AoE]大地之号" style="AoE"/>
+        <a time="01:19" text="[死刑]崩岩" sync="1[56]:.*:4116:" style="死刑"/>
+        <a time="01:42" text="[跳跃]大地粉碎" style="AoE"/>
+        
+        <a time="01:45" text="[手]大地之手甲" sync="15:.*:40E6:"/>
+        <a time="01:52" text="[正面]橙标1/黄标2"/>
+        <a time="01:52" text="[侧面]百万地裂" style="AoE"/>
+        <a time="02:06" text="[AoE]大地之号" style="AoE"/>
+        <a time="02:17" text="[T字跳]地裂去侧后"/>
+        <a time="02:22" text="[地板]半场地裂 x2"/>
+        <a time="02:29" text="[爆炸]躲半场"/>
+        <a time="02:30" text="大地之铠"/>
+        <a time="02:33" text="[爆炸]去场中"/>
+        <a time="02:35" text="--无法攻击--"/>
+        <a time="02:40" text="--阶段转换--"/>
+        <t sync="15:.*:4371:" goto="P2"/>
+    </s>
+
+    <s name="人车">
+        <a time="00:00" text="[手]大地之手甲" sync="15:.*:40E6:"/>
+        <a time="00:06" text="[正面]橙标1/黄标2" style="AoE"/>
+        <a time="00:06" text="[侧面]百万地裂" sync="15:.*:4117:"/>
+        <a time="00:20" text="[AoE]大地之号" style="AoE"/>
+        <a time="00:32" text="[T字跳]地裂去侧后"/>
+        <a time="00:37" text="[地板]右侧地裂"/>
+        <a time="00:44" text="[爆炸]躲半场"/>
+        <a time="00:44" text="大地之铠"/>
+        <a time="00:48" text="[爆炸]去场中"/>
+        
+        <a time="01:02" text="[陨石]岩层崩落(南)" style="AoE"/>
+        <a time="01:10" text="[观察]爆破岩石"/>
+        <a time="01:22" text="[掩体]地震波(去标点)"/>
+        <a time="01:25" text="[3穿1]第一排爆炸(穿)"/>
+        <a time="01:35" text="[AoE]大地之号" style="AoE"/>
+        <a time="01:45" text="[死刑]崩岩" sync="1[56]:.*:4116:" style="死刑"/>
+        <a time="02:07" text="[跳跃]大地粉碎" style="AoE"/>
+        
+        <a time="02:11" text="[车]大地之车轮" sync="15:.*:40E8:"/>
+        <a time="02:16" text="[击退]断裂带"/>
+        <a time="02:18" text="[侧面]橙标1/黄标2" style="AoE"/>
+        <a time="02:21" text="[MT挡车]断裂带" sync="1[56]:.*:411E:"/>
+        <a time="02:27" text="[月环]震级5.0"/>
+        <a time="02:30" text="大地之铠"/>
+        <a time="02:32" text="[黄分散]八方分散" style="AoE"/>
+        <a time="02:35" text="--无法攻击--"/>
+        <a time="02:40" text="--阶段转换--"/>
+        <t sync="15:.*:4371:" goto="P2"/>
+    </s>
+
+    <s name="P2">
+        <a time="00:26" text="--可攻击--"/>
+        <a time="00:33" text="[AoE]大地之怒" sync="15:.*:4124:" style="AoE"/>
+        <a time="00:48" text="[冲拳]大地之拳 - 1"/>
+        <a time="00:51" text="[冲拳]大地之拳 - 2"/>
+        <a time="00:53" text="[地板]大地之重" sync="15:.*:4108:"/>
+        <a time="01:01" text="[AOE]大地两拳(防击退)" sync="15:.*:4135:" style="AoE"/>
+        <a time="01:06" text="[2T死刑]大地之痛" style="死刑"/>
+        <a time="01:06" text="[蓝拳]右下/蓝右上" style="伤害"/>
+        <a time="01:11" text="[死刑]巨石" style="死刑"/>
+        
+        <a time="01:27" text="[高地]D北侧集合" sync="15:.*:4122:"/>
+        <a time="01:30" text="[蓝标]下去角落" style="伤害"/>
+        <a time="01:40" text="[地板]大地之重" sync="15:.*:44D0:"/>
+        <a time="01:40" text="[三色标]橙2/黄3/蓝高地" style="AoE"/>
+        <a time="01:48" text="[AoE]大地之怒" sync="15:.*:4124:" style="AoE"/>
+        
+        <a time="02:02" text="[H分开]花岗岩牢狱"/>
+        <a time="02:15" text="[H被关]砸地板"/>
+        <a time="02:29" text="[救H]砸地板(砸H格)"/>
+        <a time="02:42" text="[救H]砸地板(砸H格)"/>
+        <a time="02:51" text="[AoE]大地之怒" sync="15:.*:4124:" style="AoE"/>
+        <a time="03:00" text="[AoE]激震x5" style="AoE"/>
+        
+        <a time="03:17" text="[AOE]大地两拳" sync="15:.*:4135:" style="AoE"/>
+        <a time="03:21" text="[2T死刑]大地之痛" style="死刑"/>
+        <a time="03:21" text="[蓝拳]右下/蓝右上(防击退)" style="伤害"/>
+        <a time="03:29" text="[冲拳]大地之拳 - 1"/>
+        <a time="03:29" text="[扩散]邪土"/>
+        <a time="03:32" text="[冲拳]大地之拳 - 2"/>
+        
+        <a time="03:45" text="[高地]D3D4南侧" sync="15:.*:4122:"/>
+        <a time="03:46" text="[橙分摊]高地分摊" style="AoE"/>
+        <a time="04:06" text="[黄分散]D4右上/D3左下" style="AoE"/>
+        <a time="04:22" text="[TH蓝标]下去角落" style="伤害"/>
+        <a time="04:34" text="[地板]大地之重" sync="15:.*:44D0:"/>
+        <a time="04:34" text="[HT蓝标]高台角落" style="伤害"/>
+        <a time="04:34" text="[D橙标]橙2" style="AoE"/>
+        <a time="04:43" text="[AoE]大地之怒" sync="15:.*:4124:" style="AoE"/>
+        <a time="04:51" text="[AoE]激震x5" style="AoE"/>
+        
+        <a time="05:14" text="[观察]砸地板"/>
+        <a time="05:23" text="[2T死刑]巨石" style="死刑"/>
+        <a time="05:37" text="[观察]砸地板"/>
+        <a time="05:40" text="[三色标]黄左下/蓝右下/橙集合" style="AoE"/>
+        <a time="05:48" text="[AoE]大地之怒" sync="15:.*:4124:" style="AoE"/>
+        <a sync="15:.*:4372:" />
+        <a time="06:13" text="[AoE]大地之怒" style="AoE"/>
+        <a time="06:22" text="[地板]D3左/D4右"/>
+        <a time="06:32" text="[橙黄标]专心穿地板" style="AoE"/>
+        <a time="06:41" text="[AoE]大地两拳" sync="15:.*:4135:" style="AoE"/>
+        <a time="06:44" text="[蓝拳]右下/蓝右上(防击退)" style="伤害"/>
+        <a time="06:45" text="[死刑]大地之痛" style="死刑"/>
+        <a time="06:54" text="[AoE]大地之号" style="AoE"/>
+        <a time="06:57" text="[AoE]激震x5" style="AoE"/>
+        <a time="07:07" text="[AoE]大地之号" style="AoE"/>
+        
+        <a time="07:18" text="[AoE]大地之怒" style="AoE"/>
+        <a time="07:26" text="[地板]内圈分摊"/>
+        <a time="07:37" text="[橙黄标]第二板留" style="AoE"/>
+        <a time="07:48" text="[冲拳]大地之拳 - 1"/>
+        <a time="07:51" text="[冲拳]大地之拳 - 2"/>
+        <a time="08:00" text="[死刑]崩岩" style="死刑"/>
+        <a time="08:12" text="[2T死刑]巨石" style="死刑"/>
+        
+        <a time="08:24" text="[AoE]大地之怒" style="AoE"/>
+        <a time="08:32" text="[地板]D3左/D4右"/>
+        <a time="08:42" text="[橙黄标]专心穿地板" style="AoE"/>
+        <a time="08:54" text="[冲拳]大地之拳 - 1"/>
+        <a time="08:57" text="[冲拳]大地之拳 - 2"/>
+        <a time="09:03" text="[AoE]大地之号" style="AoE"/>
+        <a time="09:06" text="[AoE]激震x5" style="AoE"/>
+        <a time="09:16" text="[AoE]大地之号" style="AoE"/>
+        <a time="09:18" text="[AoE]激震x5" style="AoE"/>
+        <a time="09:28" text="[AoE]大地之号" style="AoE"/>
+        <a time="09:42" text="[狂暴]大地之怒" style="狂暴"/>
+    </s>
+    
+</timeline>

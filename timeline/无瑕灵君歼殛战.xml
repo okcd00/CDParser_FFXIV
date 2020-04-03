@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+    <name>无瑕灵君歼殛战</name>
+    <zone>无瑕灵君歼殛战</zone>
+    <rev>0.52</rev>
+    <author>摩杜纳Souma</author>
+    <description>国服极完美神时间轴。</description>
+    <license>CC BY-SA</license>
+    <locale>CN</locale>
+    <entry>P1</entry>
+    <start>00:0039:(战斗开始！|戦闘開始！)</start>
+
+    <default target-element="Activity" target-attr="notice-o" value="-1"/>
+
+    <!-- tts -->
+    <t name="夺影" sync="14:3EEA:" notice="AoE"/>
+    <t name="裁决之雷" sync="14:3ECD:" notice="死刑"/>
+    <t name="断罪回旋" sync="14:3EDC:" notice="扇子"/>
+    <t name="光明柱" sync="14:3F3E:" notice="分摊"/>
+    <t name="毒舌钩" sync="14:3EC8:" notice="AoE"/>
+    <t name="神圣剑" sync="14:3EC9:" notice="双死刑"/>
+    <t name="荣福直观" sync="14:3EEE:" notice="远离中场"/>
+    <t name="神光" sync="14:3EE4:" notice="躲扇形"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="1" notice="连线"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="2" notice="连线"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="3" notice="大风车"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="5" notice="大风车连线"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="6" notice="大风车"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="8" notice="连线"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="9" notice="大风车"/>
+    <t name="断罪飞翔" sync="14:40BD:" sync-count="10" notice="连线"/>
+
+    <!-- 时间轴 -->
+    <s name="P1">
+        <a time="00:13" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="00:26" text="[连线]断罪飞翔" sync="14:40BD:"/>
+        <a time="00:43" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="00:56" text="[连线]断罪飞翔" sync="14:40BD:"/>
+        <a time="01:03" text="[扇子]断罪回旋" sync="14:3EDC:"/>
+        <a time="01:19" text="[大风车]断罪飞翔" sync="14:40BD:"/>
+        <a time="01:35" text="[伤害]落光" style="YELLOW"/>
+        <a time="01:44" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="01:57" text="[直线]断罪飞翔" sync="14:40BD:"/>
+        <a time="02:04" text="[米字]断罪回旋" sync="14:3EDD:"/>
+        <a time="02:13" text="[分摊]光明柱" sync="14:3F3E:" style="TANK"/>
+        <a time="02:20" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="02:33" text="[大风车连线]断罪飞翔" sync="14:40BD:"/>
+        <a time="02:58" text="BOSS上天" sync="00:0044:无瑕灵君:你们将接受我的制裁……"/>
+        <a time="03:04" text="[AoE]毒舌钩" sync="14:3EC8:" style="PURPLE"/>
+        <a time="03:10" text="[死刑]神圣剑" sync="14:3EC9:" style="DPS"/>
+        <a time="03:26" text="[死刑]神圣剑" sync="14:3EC9:" style="DPS"/>
+        <t text="P3" sync="00:0044:无瑕灵君:连同你们的罪孽一起斩断！|イノセンス:その罪ごと、断たれて消えよッ！" goto="P3"/>
+    </s>
+
+    <s name="P3">
+        <a time="00:17" text="BOSS可攻击" sync="] 22:\w{8}:(无瑕灵君|イノセンス):\w{8}:(无瑕灵君|イノセンス):01"/>
+        <a time="00:24" text="创星" sync="14:3EEF:"/>
+        <a time="00:36" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="00:49" text="[大风车]断罪飞翔" sync="14:40BD:"/>
+        <a time="01:06" text="[米字]断罪回旋" sync="14:3EDD:"/>
+        <a time="01:14" text="[伤害]荣福直观" sync="14:3EEE:" style="YELLOW"/>
+        <a time="01:23" text="BOSS可攻击" sync="] 22:\w{8}:(无瑕灵君|イノセンス):\w{8}:(无瑕灵君|イノセンス):01"/>
+        <a time="01:31" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="01:44" text="创星" sync="14:3EEF:"/>
+        <a time="02:01" text="[分摊]光明柱" sync="14:3F3E:" style="TANK"/>
+        <a time="02:11" text="[伤害]荣福直观" sync="14:3EEE:" style="YELLOW"/>
+        <a time="02:19" text="BOSS可攻击" sync="] 22:\w{8}:(无瑕灵君|イノセンス):\w{8}:(无瑕灵君|イノセンス):01"/>
+        <a time="02:30" text="[扇子]断罪回旋" sync="14:3EDC:"/>
+        <a time="02:38" text="[扇形]神光" sync="14:3EE4:"/>
+        <a time="02:53" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="03:05" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="03:16" text="创星" sync="14:3EEF:"/>
+        <a time="03:21" text="[直线]断罪飞翔" sync="14:40BD:"/>
+        <a time="03:38" text="[分摊]光明柱" sync="14:3F3E:" style="TANK"/>
+        <a time="03:48" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="04:03" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="04:14" text="[连线]断罪飞翔" sync="14:40BD:"/>
+        <a time="04:28" text="[大风车]断罪飞翔" sync="14:40BD:"/>
+        <a time="04:37" text="创星" sync="14:3EEF:"/>
+        <a time="04:45" text="[伤害]荣福直观" sync="14:3EEE:" style="YELLOW"/>
+        <a time="04:52" text="BOSS可攻击" sync="] 22:\w{8}:(无瑕灵君|イノセンス):\w{8}:(无瑕灵君|イノセンス):01"/>
+        <a time="05:04" text="[扇子]断罪回旋" sync="14:3EDC:"/>
+        <a time="05:20" text="[连线]断罪飞翔" sync="14:40BD:"/>
+        <a time="05:28" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="05:41" text="创星" sync="14:3EEF:"/>
+        <a time="05:58" text="[分摊]光明柱" sync="14:3F3E:" style="TANK"/>
+        <a time="06:07" text="[伤害]荣福直观" sync="14:3EEE:" style="YELLOW"/>
+        <a time="06:26" text="[扇子]断罪回旋" sync="14:3EDC:"/>
+        <a time="06:32" text="[扇形]神光" sync="14:3EE4:"/>
+        <a time="06:49" text="[AoE]夺影" sync="14:3EEA:" style="PURPLE"/>
+        <a time="07:00" text="[死刑]裁决之雷" sync="14:3ECD:" style="DPS"/>
+        <a time="07:11" text="创星" sync="14:3EEF:"/>
+        <a time="07:16" text="断罪飞翔" sync="14:40BD:"/>
+        <a time="07:39" text="狂暴" notice="狂暴" style="NOTICE" sync-s="-30"/>
+    </s>
+
+</timeline>
