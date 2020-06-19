@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>亚历山大绝境战</name>
+	<rev>v05.03</rev>
+	<author>Savic 神意之地</author>
+	<description>作者: Savic | ID: 萨维奇(神意之地) | 神意部队吹水招新群: 678762063</description>
+	<zone>亚历山大绝境战</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-3" />
+	<default target-element="Activity" target-attr="notice-d" value="Both" />
+	<default target-element="Activity" target-attr="sync-s" value="-5" />
+    <default target-element="Activity" target-attr="sync-e" value="5" />
+
+	<!-- 触发器 -->
+	<s name="P1">
+        <!--P1-->
+		<a time="011" text="流体摆动" sync=":有生命活水:49B0:流体摆动:" notice="顺劈" />
+		<a time="019" text="倾泻" sync=":有生命活水:4826:倾泻:" notice="AOE" />
+		<a time="035" text="离别之手" sync=":活水之手:482C:离别之手:" notice-o="-6" notice="开始猜拳" />
+		<a time="036" text="水圈喷水" sync=":活水之怒:49B5:万变水波:" notice="引导喷水" />
+		<a time="037" text="流体摆动/水圈喷水2" sync=":有生命活水:49B0:流体摆动:" notice="顺劈" />
+		<a time="039" text="污染蒸汽" sync=":狩猎人偶:481E:污染蒸汽:" notice-o="-1" notice="蒸汽伊" />
+		<a time="041" text="填充水压" sync=":活水之怒:4829:填充水压:" notice-o="-1" notice="水球移动" />
+		<a time="050" text="污染蒸汽" sync=":狩猎人偶:481E:污染蒸汽:" notice-o="-1" notice="蒸汽二" />
+		<a time="056" text="流体摆动" sync=":有生命活水:49B0:流体摆动:" notice="顺劈" />
+		<a time="069" text="万变水波 1" sync=":有生命活水:4822:万变水波:" notice-o="-6" notice="万变水波" />
+		<a time="071" text="万变水波 2" sync=":有生命活水:4823:万变水波:" />
+		<a time="074" text="万变水波 3" sync=":有生命活水:4823:万变水波:" />
+		<a time="080" text="溅开" sync=":有生命活水:49B2:溅开:" notice="六连溅开 双T连线" />
+		<a time="086" text="排水" sync=":活水之怒:4827:排水:" />
+		<a time="091" text="倾泻" sync=":有生命活水:4826:倾泻:" notice="AOE" />
+		<a time="095" text="液体监狱" sync=":活水之怒:4828:液体监狱:" />
+		<a time="106" text="万变水波 1" sync=":有生命活水:4822:万变水波:" notice-o="-6" notice="万变水波" />
+		<a time="108" text="万变水波 2" sync=":有生命活水:4823:万变水波:" />
+		<a time="111" text="万变水波 3" sync=":有生命活水:4823:万变水波:" />
+		<a time="112" text="水圈喷水 1" sync=":活水之怒:49B5:万变水波:" />
+		<a time="114" text="水圈喷水 2" sync=":有生命活水:49B6:万变水波:" />
+		<a time="118" text="填充水压" sync=":活水之怒:4829:填充水压:" notice-o="-1" notice="水球移动" />
+		<a time="123" text="离别之手" sync=":活水之手:482C:离别之手:" notice-o="-6" notice="开始猜拳" />
+		<a time="126" text="溅开" sync=":有生命活水:49B2:溅开:" notice="六连溅开" />
+		<a time="133" text="流体摆动" sync=":有生命活水:49B0:流体摆动:" notice="顺劈" />
+		<a time="141" text="狂暴" sync=":有生命活水:49B3:倾泻:" notice="AOE" />
+		<t text="代号“摧毁者”！" sync=":巡航驱逐者:代号“摧毁者”！" goto="P1.5" />
+	</s>
+	
+	<s name="P1.5">
+		<t text="1" sync=":[mex]:0000:.{4}:004F:0000:0000:0000:" notice="1号1号" />
+		<t text="2" sync=":[mex]:0000:.{4}:0050:0000:0000:0000:" notice="2号2号" />
+		<t text="3" sync=":[mex]:0000:.{4}:0051:0000:0000:0000:" notice="3号3号" />
+		<t text="4" sync=":[mex]:0000:.{4}:0052:0000:0000:0000:" notice="4号4号" />
+		<t text="5" sync=":[mex]:0000:.{4}:0053:0000:0000:0000:" notice="5号5号" />
+		<t text="6" sync=":[mex]:0000:.{4}:0054:0000:0000:0000:" notice="6号6号" />
+		<t text="7" sync=":[mex]:0000:.{4}:0055:0000:0000:0000:" notice="7号7号" />
+		<t text="8" sync=":[mex]:0000:.{4}:0056:0000:0000:0000:" notice="8号8号" />
+        <!--P1.5-->
+		<a time="000" text="代号“摧毁者”！" />
+		<a time="006" text="轰炸1" sync=":巡航驱逐者:4830:鹰式破坏炮:" sync-s="-10" />
+		<a time="008" text="轰炸2" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="010" text="轰炸3" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="012" text="轰炸4" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="014" text="轰炸5" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="016" text="轰炸6" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="018" text="轰炸7" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="020" text="轰炸8" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="022" text="轰炸9" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="024" text="轰炸10" sync=":巡航驱逐者:4830:鹰式破坏炮:" />
+		<a time="026" text="顺劈" sync=":巡航驱逐者:4834:阿尔法之剑:" notice-o="1" notice="中间集合减伤" />
+		<a time="027" text="冲锋" sync=":巡航驱逐者:4B4F:超级摧毁者冲击:" />
+		<t text="代号“残暴正义号”！" sync=":残暴正义号:4854:正义飞踢:" goto="P2" />
+	</s>		
+		
+	<s name="P2">
+		<t text="龙卷风" sync=":49C2:巡航驱逐者 starts using 龙卷风 on" notice="AOE" />
+		<t text="回旋碎踢" sync=":4A72:巡航驱逐者 starts using 回旋碎踢 on" notice="躲避回旋碎踢" />
+		<t text="寒冰导弹" sync=":[mex]:0000:.{4}:0043:0000:0000:0000:" notice="冰圈靠近水龙卷" />
+		<t text="生命计算法" sync=":[mex]:0000:.{4}:0041:0000:0000:0000:" notice="计数点名" />
+		<t text="雷点名" sync="[mex] gains the effect of 雷属性压缩 from" notice="雷雷雷" />
+		<t text="水点名" sync="[mex] gains the effect of 水属性压缩 from" notice="水水水" />
+		<t text="超级跳跃" sync=":4849:残暴正义号 starts using 超级跳跃 on" notice="苏帕酱噗" />
+		<!--P2-->
+		<a time="000" text="正义飞踢" /> 
+		<a time="003" text="双T挑衅" notice="双T挑衅"/> 
+		<a time="013" text="龙卷风" sync=":巡航驱逐者:49C2:" />
+		<a time="012" text="非最终审判" sync=":483E:残暴正义号 starts using 非最终审判 on" />
+		<a time="022" text="系统连接" sync=":残暴正义号:483F:" notice-o="0" notice="远离飞轮" />
+		<a time="030" text="制导" sync=":巡航驱逐者:482F:" />
+		<a time="031" text="激光战轮" sync=":蒸汽战轮:4855:" notice-o="0" notice="回场中血条清空" />
+		<a time="035" text="鹰式破坏炮" sync=":巡航驱逐者:4831:" />
+		<a time="037" text="光子炮" sync=":巡航驱逐者:4836:" notice-o="3" notice="传毒" />
+		<a time="047" text="回旋碎踢" sync=":巡航驱逐者:4A72:" />
+		<a time="052" text="水雷分摊" sync=":残暴正义号:4841:" notice-o="0" notice="水雷1" />
+		<a time="063" text="大地导弹" sync=":残暴正义号:484E:" />
+		<a time="065" text="隐形地雷散布" sync=":残暴正义号:4851:" />
+		<a time="067" text="生命计算法" sync=":残暴正义号:4850:" notice-o="1" notice="传毒" />
+		<a time="081" text="水雷分摊" sync=":残暴正义号:4841:" notice-o="0" notice="水雷2" />
+		<a time="088" text="限制器减档" sync=":巡航驱逐者:4833:" notice-o="0" notice="攻击护盾" />
+		<a time="090" text="大火炎放射" sync=":残暴正义号:4845:" notice-o="2" notice="传毒" />
+		<a time="102" text="龙卷风" sync=":巡航驱逐者:49C2:" />
+		<a time="111" text="水雷分摊" sync=":残暴正义号:4841:" notice-o="0" notice="水雷3 冰块后排队" />
+		<a time="129" text="螺旋桨强风" sync=":巡航驱逐者:4832:" />
+		<a time="131" text="终审闭庭" sync=":残暴正义号:483C:" />
+		<a time="139" text="光子炮" sync=":4836:巡航驱逐者 starts using 光子炮" notice-o="0" notice="双T空血" />
+		<a time="146" text="双重火箭飞拳" sync=":4847:残暴正义号 starts using 双重火箭飞拳 on" notice-o="0" notice="双T分摊" />
+		<a time="157" text="超级跳跃" sync=":残暴正义号:484A:" notice-o="5" notice="加油啊残暴正义号" /> 
+		<a time="170" text="龙卷风" sync=":巡航驱逐者:49C2:" />
+		<a time="179" text="龙卷风" sync=":巡航驱逐者:49C2:" />
+		<t time="183" text="狂暴" notice-o="0" notice="狂暴" />
+		<t text="我是亚历山大……" sync="我是亚历山大……乃机械之神……" goto="P3" />
+	</s>	
+
+	<s name="P3">
+		<t text="远离" sync="[mex] gains the effect of 判决确定：禁止接近命令 from" notice="远离连线" />
+		<t text="靠近" sync="[mex] gains the effect of 判决确定：强制接近命令 from" notice="靠近连线" />
+		<t text="集团" sync="[mex] gains the effect of 判决确定：集团罪 from" notice="分摊" />
+		<t text="加重" sync="[mex] gains the effect of 判决确定：加重罪 from" notice="电点名" />
+		<t text="1" sync=":[mex]:0000:.{4}:004F:0000:0000:0000:" notice="1号1号" />
+		<t text="2" sync=":[mex]:0000:.{4}:0050:0000:0000:0000:" notice="2号2号" />
+		<t text="3" sync=":[mex]:0000:.{4}:0051:0000:0000:0000:" notice="3号3号" />
+		<t text="4" sync=":[mex]:0000:.{4}:0052:0000:0000:0000:" notice="4号4号" />
+		<t text="5" sync=":[mex]:0000:.{4}:0053:0000:0000:0000:" notice="5号5号" />
+		<t text="6" sync=":[mex]:0000:.{4}:0054:0000:0000:0000:" notice="6号6号" />
+		<t text="7" sync=":[mex]:0000:.{4}:0055:0000:0000:0000:" notice="7号7号" />
+		<t text="8" sync=":[mex]:0000:.{4}:0056:0000:0000:0000:" notice="8号8号" />
+		<t text="超级跳跃" sync=":4849:残暴正义号 starts using 超级跳跃 on" notice="苏帕酱噗" />
+        <!--P3-->
+		<a time="000" text="我是亚历山大……" />
+		<a time="006" text="时间停止" sync=":485A:至尊亚历山大 starts using 时间停止 on" notice-o="0" notice="时间停止" /> 
+		<a time="030" text="神罚射线" sync=":4A80:至尊亚历山大 starts using 神罚射线 on" notice-o="0" notice="四连死刑" /> 
+		<a time="038" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="1" /> 
+		<a time="040" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="2" /> 
+		<a time="042" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="3 挑衅换T" /> 
+		<a time="051" text="时空潜行阵列" sync=":至尊亚历山大:486F:时空潜行阵列:" notice-o="0" notice="一运开始" /> 
+		<a time="056" text="夏诺雅" sync=":Added new combatant 夏诺雅" notice-o="0" notice="有连线下半场交叉 无连线黑猫处结晶" /> 
+		<a time="072" text="审判结晶" sync=":Added new combatant 审判结晶" notice-o="0" notice="去残暴和亚历山大之间" /> 
+		<a time="094" text="时空潜行" sync=":至尊亚历山大:485E:时空潜行" /> 
+		<a time="111" text="超级跳跃" sync=":残暴正义号:4849:超级跳跃:" /> 
+		<a time="120" text="--可选中--" /> 
+		<a time="119" text="神罚射线" sync=":4A80:至尊亚历山大 starts using 神罚射线 on" /> 
+		<a time="129" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="1" /> 
+		<a time="131" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="2" /> 
+		<a time="133" text="圣炎" sync=":至尊亚历山大:4A82:圣炎:" notice-o="0" notice="3 挑衅换T" /> 
+		<a time="138" text="次元断绝阵列" sync=":486E:至尊亚历山大 starts using 次元断绝阵列 on" notice-o="0" notice="2运开始残暴脚下集合" /> 
+		<a time="153" text="系统连接" sync=":残暴正义号:483F:" notice-o="0" notice="远离飞轮" /> 
+		<a time="168" text="灵泉1" sync=":至尊亚历山大:4869:罪恶感:" notice-o="0" notice="灵泉1" /> 
+		<a time="172" text="灵泉2" sync=":至尊亚历山大:4868:罪恶感:" notice-o="0" notice="灵泉2" /> 
+		<a time="176" text="灵泉3" sync=":至尊亚历山大:4867:罪恶感:" notice-o="0" notice="灵泉3" /> 
+		<a time="177" text="净化射线" sync=":4A51:至尊亚历山大 starts using 净化射线 on" notice="中间分摊然后生命计算法" /> 
+		<a time="191" text="百万神圣" sync=":4A83:至尊亚历山大 starts using 百万神圣 on" notice-o="0" notice="二连神圣AOE" /> 
+		<a time="198" text="百万神圣" sync=":4A83:至尊亚历山大 starts using 百万神圣 on" /> 
+		<a time="209" text="召唤亚历山大" sync=":4A55:至尊亚历山大 starts using 召唤亚历山大 on" /> 
+		<a time="218" text="三体阶段" sync=":残暴正义号:4876:正义风暴:" notice="三体阶段" /> 
+		<t text="神圣审判" sync=":亚历山大:487A:神圣审判:" goto="P4" />
+	</s>	
+	
+	<s name="P4">
+		<t text="小光" sync="[mex] gains the effect of 判决确定：接触禁止命令 from" notice="小光" />
+		<t text="大光" sync="[mex] gains the effect of 判决确定：接触保护命令 from" notice="大光" />
+		<t text="小暗" sync="[mex] gains the effect of 判决确定：逃亡禁止命令 from" notice="小暗" />
+		<t text="大暗" sync="[mex] gains the effect of 判决确定：逃亡监察命令 from" notice="大暗" />
+		<t text="行动命令" sync=":487E:完美亚历山大 starts using 行动命令 on" notice="动动动" />
+		<t text="静止命令" sync=":487F:完美亚历山大 starts using 静止命令 on" notice="停停停" />
+		<t text="分散" sync=":488A:完美亚历山大 starts using 制导 on" notice="分散" />
+		<t text="分摊" sync=":488B:完美亚历山大 starts using 制导 on" notice="分摊" />
+		<t text="诛罚" sync=":4891:完美亚历山大 starts using 诛罚 on" notice="挑衅换T" />
+        <!--P4-->
+		<a time="000" text="神圣审判" />
+		<a time="053" text="合神完毕" sync="合神完毕……" notice="这就是亚历山大完美形态" /> 
+		<a time="063" text="百万吨拳击" sync=":完美亚历山大:4A8B:" /> 
+		<a time="068" text="终审判決" sync=":487D:完美亚历山大 starts using 终审判決 on" notice-o="0" notice="零点五测开始" /> 
+		<a time="075" text="行动/静止命令" sync=":487[EF]:完美亚历山大 starts using" /> 
+		<a time="085" text="行动/静止命令" sync=":487[EF]:完美亚历山大 starts using" /> 
+		<a time="096" text="制导 1" sync=":488[AB]:完美亚历山大 starts using 制导 on" /> 
+		<a time="102" text="制导 2" sync=":488[AB]:完美亚历山大 starts using 制导 on" /> 
+		<a time="115" text="未来观测α" sync=":487B:完美亚历山大 starts using 未来观测α on" notice-o="0" notice="伊测开始" /> 
+		<a time="129" text="未来观测α: 动静" sync=":完美亚历山大:4B0[DE]:" notice="伊看动静" /> 
+		<a time="135" text="未来观测α: 断罪" sync=":完美亚历山大:48A4:" notice="二看特效" /> 
+		<a time="138" text="未来观测α: 动静" sync=":完美亚历山大:489[9A]:" notice="三看动静" /> 
+		<a time="140" text="未来观测α: 十字圣礼" notice="四看十字" /> 
+		<a time="145" text="未来确定α" sync=":完美亚历山大:487C:未来确定α:" /> 
+		<a time="148" text="--不可选中--" /> 
+		<a time="151" text="--一测结束--" notice-o="0" notice="一测结束" /> 
+		<a time="168" text="加重诛罚" sync=":4892:完美亚历山大 starts using 加重诛罚 on" notice-o="0" notice="双T分摊" /> 
+		<a time="175" text="诛罚" sync=":4891:完美亚历山大 starts using 诛罚 on" /> 
+		<a time="190" text="未来观测β" sync=":4B13:完美亚历山大 starts using 未来观测β on" /> 
+		<a time="210" text="未来观测β: 光暗" sync=":完美亚历山大:489C:" notice="伊看光暗" /> 
+		<a time="219" text="未来观测β: 连线" sync=":完美亚历山大:48A[01]:" notice="二看线" /> 
+		<a time="221" text="未来观测β: 制导" sync=":完美亚历山大:48A[23]:" notice="三看制导" /> 
+		<a time="224" text="未来观测β: 拜火圣礼" sync=":完美亚历山大:489E:" notice="四看环" /> 
+		<a time="233" text="未来确定β" sync=":完美亚历山大:4B14:" /> 
+		<a time="236" text="--不可选中--" /> 
+		<a time="241" text="--二测结束--" notice-o="0" notice="二测结束" /> 
+		<a time="267" text="加重诛罚" sync=":4892:完美亚历山大 starts using 加重诛罚 on" notice-o="0" notice="四连死刑" /> 
+		<a time="274" text="诛罚" sync=":4891:完美亚历山大 starts using 诛罚 on" /> 
+		<a time="286" text="神圣大审判" sync=":488E:完美亚历山大 starts using 神圣大审判 on" /> 
+		<a time="346" text="株连" sync=":4894:完美亚历山大 starts using 株连 on" notice-o="0" notice="群体分摊" /> 
+		<a time="313" text="加重诛罚" sync=":4892:完美亚历山大 starts using 加重诛罚 on" notice-o="0" notice="四连死刑" /> 
+		<a time="320" text="诛罚" sync=":4891:完美亚历山大 starts using 诛罚 on" /> 
+		<a time="332" text="神圣大审判" sync=":488E:完美亚历山大 starts using 神圣大审判 on" /> 
+		<a time="301" text="株连" sync=":4894:完美亚历山大 starts using 株连 on" notice-o="0" notice="群体分摊" /> 
+		<a time="361" text="时空干涉" sync=":4896:完美亚历山大 starts using 时空干涉 on" notice-o="0" notice="加油啊完美亚历山大" /> 
+	</s>
+			
+</timeline>
