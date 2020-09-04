@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>伊甸零式希望乐园 (共鸣篇1)</name>
+	<rev>v1.01</rev>
+	<description>占星奶轴</description>
+	<author>弗萝北@旅人栈桥</author>
+	<zone>伊甸零式希望乐园 (共鸣之章3)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	
+	<s name="P1">
+		<!--> P1 <-->
+		<a time="0:00" text="-20中间"/>
+		<a time="0:00" text="-15天星冲日天宫图群盾"/>
+		<a time="0:00" text="-5地星轮子"/>
+		<a time="0:13" text="虚无波动 8.5w"/>
+		<a time="0:28" text="分摊死刑"/>
+		<a time="0:45" text="次元洞"/>
+		<a time="1:07" text="次元孔#1" notice="红动蓝停"/>
+		<a time="1:16" text="次元孔#2"/>
+		<a time="1:27" text="次元孔#3"/>
+		<a time="0:35" text="红动蓝停"/>
+		<a time="1:07" text="强制传送判定"/>
+		<a time="2:11" text="分摊 10w"/>
+
+		<!--> P2 <-->
+		<a time="2:19" text="虚无波动 8.5w"/>
+		<a time="2:43" text="白夜机动"/>
+		<a time="2:50" text="白光之鞭 7w"/>
+		<a time="2:51" text="_地星_" notice="准备地星"/>
+		<a time="3:11" text="白光之矢 10w"/>
+
+		<!--> P3 <-->
+		<a time="3:52" text="分摊8w #1"/>
+		<a time="4:15" text="分摊8w #2"/>
+		<a time="4:28" text="月环"/>
+		<a time="4:34" text="强制传送判定"/>
+		<a time="4:38" text="传送分摊8w #3"/>
+		<a time="4:51" text="月环/钢铁"/>
+		<a time="5:02" text="分摊8w #4"/>
+		<a time="5:25" text="防御本能 2.5w*6"/>
+		<a time="5:49" text="狂暴" sync="请做好准备防御强烈的攻击" sync-s="-60" goto="P2"/>
+	</s>
+
+	<s name="P2">
+		<!--> P4 5分46秒 <-->
+		<a time="0:08" text="虚无泛滥12.5w"/>
+		<a time="0:38" text="直线分摊 9.5w"/>
+		<a time="0:50" text="连线判定" notice-o="-6" notice="出去接线"/>
+		<a time="0:59" text="连线冲锋 9.5w"/>
+		<a time="1:14" text="直线分摊 9.5w"/>
+		<a time="1:35" text="夜袭"/>	
+		<a time="1:46" text="奔流3w" notice="记住左右"/>
+		<a time="1:54" text="奔流3w - 左下右上" notice-o="-2" notice="向右一步引导"/>
+		<a time="2:06" text="红动蓝停AOE 10w"/>
+		<a time="2:60" text="_中间地星_" notice-o="-3" notice="中间地星"/>
+		<a time="2:25" text="虚无波动 11w"/>
+		<a time="2:48" text="boss上天"/>
+
+		<a time="2:58" text="群体突进 11w" notice="右上防击退"/>
+		<a time="3:02" text="boss出现"/>
+		<a time="3:08" text="乱舞号令 -白右黑左 白色动"  notice="A点集合 准备撞球"/>
+		<a time="3:10" text="撞球#1"/>
+		<a time="3:21" text="撞球#2"/>
+		<a time="3:32" text="撞球#3"/>
+		<a time="3:45" text="三重光环#1 5.5w"/>
+		<a time="3:51" text="三重光环#2 5.5w"/>
+		<a time="3:57" text="三重光环#3 5.5w"/>
+		<a time="4:05" text="虚无波动#1 8.5w"/>
+		<a time="4:14" text="虚无波动#2 8.5w"/>
+
+		<a time="4:26" text="乱舞号令 -白右黑左 白色动"  notice="A点集合 准备撞球"/>
+		<a time="4:26" text="撞球#1"/>
+		<a time="4:39" text="撞球#2"/>
+		<a time="4:50" text="撞球#3"/>
+		<a time="5:05" text="三重光环#1 5.5w"/>
+		<a time="5:09" text="三重光环#2 5.5w"/>
+		<a time="5:15" text="三重光环#3 5.5w"/>
+		<a time="5:23" text="虚无波动#1 8.5w"/>
+		<a time="5:32" text="虚无波动#2 8.5w"/>
+		<a time="6:09" text="狂暴" notice="狂暴"/>
+	</s>
+</timeline>

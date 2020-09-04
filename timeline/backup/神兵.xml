@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>绝神兵_占星轴</name>
+	<zone>禁绝幻想</zone>
+	<rev>v1.1.1</rev>
+	<description>柚柚柚柚柚柚@萌芽池</description>
+	<zone>究极神兵绝境战</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始|你们这些蝼蚁</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	
+	<s name="P1">
+		<a time="00:05" sync="正在发动“螺旋气流”" text="螺旋气流"/>
+		<a time="00:07" text="_地星_" notice-o="0" notice="地星地星"/>
+		<a time="00:10" text="寒风之歌"/>
+		<a time="00:21" text="螺旋气流"/>
+		<a time="00:26" text="下行突风" notice="顺劈"/>
+		<a time="00:34" text="飞翎雨" />
+		<a time="00:37" text="寒风之啸" notice="群盾轮子"/>
+		<a time="00:47" text="烈风刃1"/>
+		<a time="00:54" text="烈风刃2" notice="天星冲日"/>
+		<a time="01:09" text="飞翎雨" />
+		<a time="01:12" text="!![大气爆发]!!"/>
+		<a time="01:29" text="飞翎雨" />
+		<a time="01:35" text="邪轮旋风"/>
+		<a time="01:40" text="飞翎雨" notice="地星地星"/>
+		<a time="01:55" text="接线" notice="轮子"/>
+		<a time="02:03" text="下行突风" notice="顺劈"/>
+		<a time="02:03" text="超级气旋"/>
+		<a time="02:05" text="飞翎雨"/>
+		<a time="02:17" text="螺旋气流"/>
+		<a time="02:25" text="钢铁月环" notice="钢铁月环"/>
+		<a time="02:33" text="分摊" notice="分摊"/>
+		<a time="02:54" text="狂暴" notice="狂暴" sync="区区蝼蚁" sync-s="-60" goto="P2"/>
+	</s>
+	
+	<s name="P2">
+		<a time="004" text="火神出现"/>
+		<a time="008" text="火神冲"/>
+		<a time="010" text="光辉炎柱"/>
+		<a time="013" text="!![地狱之火炎]!!" sync="正在发动“地狱之火炎”" notice="补群盾"/>
+		<a time="024" text="火神爆裂" notice="天星冲日"/>
+		<a time="027" text="烈焰焚烧1" />
+		<a time="030" text="烈焰焚烧2"/>
+		<a time="034" text="烈焰焚烧3"/>
+		<a time="041" text="火神柱" notice="地星地星"/>
+		<a time="047" text="热风" />
+		<a time="067" text="热风结束"  notice-o="0" notice="回去补群盾"/>
+		<a time="074" text="!![地狱之火炎]!!" sync="正在发动“地狱之火炎”" notice="天星冲日"/>
+		<a time="084" text="热风"/>
+		<a time="098" text="火神冲" notice="地星地星"/>
+		<a time="103" text="热风"/>
+		<a time="113" text="分摊"/>
+		<a time="125" text="火神冲"/>
+		<a time="137" text="烈焰焚烧1"/>
+		<a time="141" text="烈焰焚烧2"/>
+		<a time="144" text="烈焰焚烧3"/>
+		<a time="161" text="分摊" notice="开轮子"/>
+		<a time="165" text="狂暴" notice="群盾" sync="不共戴天" sync-s="-60"  goto="P3"/>
+	</s>
+	
+	<s name="P3">
+		<a time="00:06" text="大地粉碎" />
+		<a time="00:07" text="大地之怒" sync="正在发动“大地之怒”" notice="天星冲日"/>
+		<a time="00:22" text="掀桌" notice="死刑"/>
+		<a time="00:23" text="流沙" />
+		<a time="00:30" text="泰坦上天"/>
+		<a time="00:34" text="大地粉碎"/>
+		<a time="00:38" text="一杆进洞" notice="地星地星"/>
+		<a time="00:40" text="爆破岩石"/>
+		<a time="00:45" text="石牢点名" />
+		<a time="00:46" text="地裂1" />
+		<a time="00:51" text="地裂2" />
+		<a time="00:55" text="怒震*8" notice="命运之轮"/>
+		<a time="01:07" text="流沙" />
+		<a time="01:13" text="地裂"/>
+		<a time="01:21" text="泰坦上天"/>
+		<a time="01:26" text="大地粉碎"/>
+		<a time="01:35" text="石牢" notice="地星地星"/>
+		<a time="01:40" text="冲拳" />
+		<a time="01:48" text="怒震*6" notice="天星冲日"/>
+		<a time="01:56" text="掀桌" notice="死刑"/>
+		<a time="02:03" text="流沙"/>
+		<a time="02:09" text="地裂" />
+		<a time="02:20" text="掀桌" notice="死刑"/>
+		<a time="02:25" text="流沙" notice="地星地星"/>
+		<a time="02:36" text="怒震*8"/>
+		<a time="02:45" text="狂暴" notice="狂暴" sync="终有一日" sync-s="-60" goto="P3.5"/>
+	</s>
+	
+	<s name="P3.5">
+    	<a time="00:11" text="魔导浮游炮" icon="LB.png"/>
+      	<a time="00:22" text="死亡宣告" sync="消失吧！光之使徒"  icon="LB.png"/>
+      	<a time="00:31" text="拉哈布雷亚登场" sync="正在发动“冥暗|Dark IV”" icon="LB.png"/>
+      	<a time="00:48" text="究极神兵登场" sync="生命之色涡旋流转" icon="LB.png"/>
+      	<a time="00:55" text="究极" notice="补群盾命运之轮" icon="LB.png" />
+      	<a time="01:28" text="地星地星" notice="地星地星补群盾"/>
+      	<a time="01:33" text="可以选中" goto="P4"/>
+  	</s>
+
+	<s name="P4">
+		<a time="00:00" text="魔导核爆"  sync="正在发动“魔导核爆”" sync-s="-15"/>
+		<a time="00:14" text="诱导射线"/>
+		<a time="00:17" text="吸附式以太炸弹" notice="天星冲日"/>
+		<a time="00:27" text="第一次运动会"/>
+		<a time="00:34" text="地裂"/>
+		<a time="00:43" text="飞翎雨"/>
+		<a time="01:06" text="光辉炎柱" notice="地星地星"/>
+		<a time="01:18" text="怒震*7" notice="轮子天星"/>
+		<a time="01:28" text="寒风之啸"/>
+		<a time="01:30" text="飞翎雨"/>
+		<a time="01:33" text="飞翎雨"/>
+		<a time="01:36" text="第二次运动会" notice="天赐"/>
+		<a time="01:48" text="流沙"/>
+		<a time="01:53" text="分摊" notice="群盾"/>
+		<a time="01:58" text="飞翎雨"/>
+		<a time="01:58" text="热风"/>
+		<a time="02:12" text="魔导核爆" notice-o="0" notice="单盾自己人群地星"/>
+		<a time="02:17" text="飞翎雨"/>
+		<a time="02:27" text="回人群" notice="回人群"/>
+		<a time="02:28" text="诱导射线"/>
+		<a time="02:38" text="光辉炎柱" notice="天星冲日"/>
+		<a time="02:49" text="火神爆裂"/>
+		<a time="02:59" text="诱导射线" notice="补群盾单盾st"/>
+		<a time="03:01" text="火神爆裂"/>
+		<a time="03:05" text="第三次运动会" sync="正在发动“爆击之究极幻想”" sync-s="-60"/>
+		<a time="03:40" text="分摊" notice="群盾轮子地星别动"/>
+		<a time="03:46" text="!![魔导核爆]!!" notice="补群盾"/>
+		<a time="04:00" text="究极判定" notice="补群盾"/>
+		<a time="04:08" text="撞球" notice="奶T"/>
+		<a time="04:14" text="人群A集合" notice="A点集合"/>
+		<a time="04:41" text="吸附式以太炸弹" notice-o="-1" notice="群盾群盾"/>
+		<a time="04:48" text="!![转场]!!" notice="转场转场大AOE"/>
+		<a time="05:01" text="吸附式以太炸弹" notice-o="-1" notice="群盾群盾"/>
+		<a time="05:09" text="!![转场]!!" notice="转场转场大AOE"/>
+		<a time="05:31" text="吸附式以太炸弹" notice-o="-1" notice="群盾群盾"/>
+		<a time="05:37" text="!![转场]!!" notice="转场转场大AOE"/>
+		<a time="06:13" text="献祭" notice="补dot"/>
+		<a time="06:34" text="狂暴"/>
+	</s>
+	
+</timeline>

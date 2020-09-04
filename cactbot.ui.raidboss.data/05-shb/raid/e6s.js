@@ -156,7 +156,7 @@
       netRegexJa: NetRegexes.startsUsing({ source: ['ガルーダ', 'ラクタパクシャ'], id: ['4BF[EF]', '4C0[45]'], capture: false }),
       netRegexCn: NetRegexes.startsUsing({ source: ['迦楼罗', '赤翼罗羯坨博叉'], id: ['4BF[EF]', '4C0[45]'], capture: false }),
       infoText: {
-		cn: '[风刃] 躲开',
+		cn: '[风牙] 躲开',
         en: 'Avoid green nails',
         de: 'Weiche den grünen Nägeln aus',
         fr: 'Évitez les griffes',

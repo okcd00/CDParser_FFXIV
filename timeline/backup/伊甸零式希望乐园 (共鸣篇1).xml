@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>伊甸零式希望乐园 (共鸣篇1)</name>
+	<rev>v1.01</rev>
+	<description>占星奶轴</description>
+	<author>弗萝北@旅人栈桥</author>
+	<zone>伊甸零式希望乐园 (共鸣之章1)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-3"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	
+	<s name="P1">
+		<a time="0:00" text="-20中间"/>
+		<a time="0:00" text="-10天宫群盾"/>
+		<a time="0:00" text="-7地星轮子天星"/>
+		<a time="0:12" text="制裁之热雷6.6w" notice-o="0" notice="天宫图"/>
+		<a time="0:22" text="武具生成" notice-o="0" notice="疾跑"/>
+		<a time="0:52" text="蓄雷" notice="吃球"/>
+		<a time="1:53" text="_地星_" notice-o="0" notice="地星轮子"/>
+		<a time="1:12" text="制裁之热雷6.6w" notice="天星"/>
+		<a time="1:16" text="生成雷暴云" notice="动动动"/>
+		<a time="1:31" text="击退3w" notice="防击退光速天宫"/>
+		<a time="1:53" text="_地星_" notice-o="0" notice="地星地星"/>
+		<a time="2:27" text="制裁之热雷6.6w" notice-o="0" notice="防击退轮子天星"/>
+		<a time="2:32" text="蓄雷" notice="吃球"/>
+		<a time="2:53" text="_地星_" notice-o="0" notice="地星地星"/>
+		<a time="3:24" text="梯导闪电(旋风)" notice="旋风旋风"/>
+		<a time="3:40" text="制裁之热雷6.6w" notice="轮子天星"/>
+		<a time="3:40" text="十四重蓄雷"/>
+		<a time="4:08" text="生成幻影" notice="疾跑场边地星"/>
+		<a time="4:22" text="人马冲锋5.5w" notice="冲锋冲锋"/>
+
+		<a time="4:35" text="蓄雷" notice="吃球"/>
+		<a time="4:42" text="梯导闪电(月环)" notice="归位不动"/>
+		<a time="5:01" text="链雷" notice-o="0" notice="归位链雷"/>
+		<a time="5:04" text="死刑" notice="轮子地星"/>
+		<a time="5:16" text="制裁之热雷6.6w"/>
+		<a time="6:02" text="梯导闪电(旋风)" notice="旋风旋风"/>
+		<a time="6:19" text="_地星_" notice="地星地星"/>
+		<a time="6:27" text="制裁之热雷6.6w" notice="轮子"/>
+		<a time="6:32" text="十四重蓄雷"/>
+		<a time="6:55" text="生成幻影" notice="生成幻影"/>
+		<a time="7:09" text="人马冲锋5.5w" notice="冲锋冲锋中间地星"/>
+
+		<a time="7:17" text="蓄雷" notice="吃球"/>
+		<a time="7:29" text="制裁之热雷6.6w" notice="冲锋冲锋"/>
+		<a time="7:35" text="生成雷暴云" notice="光速归位"/>
+		<a time="7:51" text="击退" notice-o="0" notice="防击退"/>
+		<a time="8:22" text="_地星_" notice-o="0" notice="地星地星"/>
+		<a time="8:42" text="制裁之热雷6.6w" notice="轮子"/>
+		<a time="8:26" text="链雷" notice-o="-5" notice="归位链雷"/>
+		<a time="8:52" text="观察是否蓄雷" notice="归位观察是否蓄雷"/>
+		<a time="8:54" text="梯导闪电(随机!)"/>
+		<a time="9:05" text="蓄雷" notice="吃球"/>
+		<a time="9:14" text="制裁之热雷6.6w"/>
+		<a time="9:25" text="制裁之热雷6.6w"/>
+		<a time="9:31" text="蓄雷" notice="吃球"/>
+		<a time="9:42" text="制裁之热雷6.6w"/>
+		<a time="9:53" text="制裁之热雷6.6w"/>
+		<a time="10:05" text="制裁之热雷6.6w"/>
+		<a time="10:05" text="十四重蓄雷(狂暴)"/>
+		<a time="10:34" text="武具召唤"/>
+		<a time="10:56" text="狂暴" notice="狂暴"/>
+	</s>
+</timeline>

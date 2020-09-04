@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>伊甸零式希望乐园 (共鸣篇1)</name>
+	<rev>v1.01</rev>
+	<description>占星奶轴</description>
+	<author>弗萝北@旅人栈桥</author>
+	<zone>伊甸零式希望乐园 (共鸣之章4)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+
+
+	<s name="P1">
+		<!--> P1 <-->
+		<a time="0:00" text="-20中间"/>
+		<a time="0:00" text="-15天星 天宫 群盾"/>
+		<a time="0:00" text="-7小奥秘 袖内"/>
+		<a time="0:00" text="-4地星轮子"/>
+		<a time="0:16" text="绝对零度 15w"/>
+		<a time="0:23" text="[镜之国度]"/>
+		<a time="0:38" text="背刺靠近黄镜|前斩远离黄镜"/>
+		<a time="0:43" text="绿镜复读"/>
+		<a time="0:48" text="红镜复读"/>
+
+		<a time="1:02" text="[钻石星辰] 7w" notice="轮子"/>
+		<a time="1:06" text="红圈点名 去2号点"/>
+		<a time="1:07" text="九连环出现" notice-0="-2" notice="落冰出现"/>
+		<a time="1:16" text="击退判定 核爆去C"/>
+		<a time="1:20" text="核保 7w"/>
+		<a time="1:32" text="背刺|前斩"/>
+		<a time="1:53" text="背对判定" notice-0="-2" notice="背对背对"/>
+		<a time="2:01" text="钢铁|月环"/>
+
+		<a time="2:15" text="[光之泛滥] 7w"/>
+		<a time="2:27" text="单人塔判定"/>
+		<a time="2:28" text="光波判定 7w"/>
+		<a time="2:35" text="双人塔判定"/>
+		<a time="2:36" text="撞球 4w"/>
+		<a time="2:38" text="水波 7w"/>
+		<a time="2:43" text="四人塔判定"/>
+
+		<a time="2:48" text="[镜之国度]"/>
+		<a time="3:03" text="钢铁|月环"/>
+		<a time="3:08" text="镜子复读"/>
+		<a time="3:12" text="1分摊 4分散 9w"/>
+		<a time="3:20" text="boss上天"/>
+
+		<!--> P2 <-->
+		<a time="3:44" text="可以移动"/>
+		<a time="3:47" text="50%生命"/>
+		<a time="3:58" text="连线判定#1 (奶)" notice="接线接线"/>
+		<a time="4:02" text="50%生命"/>
+		<a time="4:12" text="连线判定#2"/>		
+		<a time="4:16" text="50%生命"/>
+		<a time="4:26" text="连线判定#3"/>
+		<a time="4:30" text="50%生命"/>
+		<a time="4:31" text="小怪#4"/>
+		<a time="4:40" text="连线判定#4"/>		
+		<a time="4:52" text="boss上天"/>
+
+		<!--> P3 <-->
+		<a time="5:49" text="boss出现"/>
+		<a time="6:07" text="死亡轮回 分组"/>
+		<a time="6:16" text="无尽顿悟 集合"/>
+		<a time="6:29" text="[转圈镜] 同侧屁股"/>
+		<a time="6:41" text="同背 异前"/>
+		<a time="6:46" text="绿镜复读"/>
+		<a time="6:51" text="红镜复读"/>
+		<a time="6:51" text="蓝红顺序 同侧屁股"/>
+		<a time="7:07" text="[龙牙龙爪] 6w"/>	
+		<a time="7:14" text="龙头出现在A"/>	
+		<a time="7:19" text="神圣之翼#1 红2"/>
+		<a time="7:27" text="神圣之翼#2 红3"/>
+		<a time="7:35" text="神圣之翼#3 红4 "/>
+		<a time="7:43" text="神圣之翼#4 站好后背身位"/>
+		<a time="7:52" text="不许动!" notice="站好身位"/>
+		<a time="7:58" text="动动动"/>
+		<a time="8:00" text="闲前静后 静在后"/>	
+		<a time="8:26" text="天光轮回 集合" notice="背后集合等boss张开翅膀"/>
+		<a time="8:35" text="_红门地星_" notice="地星地星"/>	
+		<a time="8:43" text="[BOSS跳跃 击退镜]"/>	
+		<a time="8:53" text="找绿镜9w" notice="光速刷血防击退"/>	 
+		<a time="8:59" text="红镜9w"/>
+		
+		<a time="9:25" text="[背对镜] 判定"/>	
+		<a time="9:30" text="去背后"/>
+		<a time="9:36" text="真假圈12w"/>
+
+		<a time="9:44" text="[严月冷钢] #判定1"/>	
+		<a time="9:48" text="        #判定#2"/>	
+		<a time="10:07" text="天光轮回 背后集合" notice-o="-10" notice="背后集合等翅膀"/>
+		<a time="10:17" text="观察仇恨列表读条分散" notice-o="-8" notice="观察仇恨列表读条"/>
+		<a time="10:19" text="死亡轮回 分散分摊"/>
+		<a time="10:25" text="无尽顿悟 集合分摊"/>
+
+		<a time="10:49" text="[冰光龙诗]"/>
+		<a time="11:08" text="击退"/>
+		<a time="11:11" text="单人塔判定2w"/>
+		<a time="11:15" text="真假分摊5w"/>
+		<a time="11:21" text="2层踩塔判定" notice="两层踩塔"/>
+		<a time="11:27" text="光波判定" notice="引导光波"/>
+
+		<a time="11:40" text="[冰神滑冰] A点集合"/>
+		<a time="11:48" text="不许动!"/>
+		<a time="12:01" text="天光轮回 动动动" notice="等待翅膀"/>
+		<a time="12:05" text="可以动"/>
+
+		<a time="12:17" text="[圣龙咆哮]6w"/>
+		<a time="12:24" text="死亡轮回#1 分散分摊"/>
+		<a time="12:34" text="等T撞球 吃白圈" notice-o="-7" notice="等aoe再吃白圈"/>
+		<a time="12:35" text="无尽顿悟#1 (无敌)"/>
+		<a time="12:42" text="死亡轮回#2 分散分摊"/>
+		<a time="12:55" text="无尽顿悟#2 集合"/>
+		<a time="13:02" text="死亡轮回#3 分散分摊"/>
+		<a time="13:16" text="无尽顿悟#3"/>
+		<a time="13:48" text="神圣之翼 去背后" notice="去背后"/>
+		<a time="13:58" text="狂暴"/>
+	</s>
+
+	<s name="P2">
+		<!--> P4 5分46秒 <-->
+		<a time="10:55" text="狂暴" notice="狂暴"/>
+	</s>
+</timeline>

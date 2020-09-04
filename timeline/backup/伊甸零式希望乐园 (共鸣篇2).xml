@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<timeline>
+	<name>伊甸零式希望乐园 (共鸣篇1)</name>
+	<rev>v1.01</rev>
+	<description>占星奶轴</description>
+	<author>弗萝北@旅人栈桥</author>
+	<zone>伊甸零式希望乐园 (共鸣之章2)</zone>
+	<locale>CN</locale>
+	<entry>P1</entry>
+	<start>0039:战斗开始</start>
+	
+	<!-- -4为提前4秒播报，可按需更改 -->
+	<default target-element="Activity" target-attr="notice-o" value="-4"/>
+	<default target-element="Activity" target-attr="notice-d" value="Both"/>
+	
+	<s name="P1">
+		<!--> P1 <-->
+		<a time="0:00" text="-20中间"/>
+		<a time="0:00" text="-10天宫群盾"/>
+		<a time="0:00" text="-5地星"/>
+		<a time="0:17" text="超级风暴9w" notice="轮子天宫图"/>
+		<a time="0:27" text="锢囚锋"/>
+		<a time="0:39" text="连线5.5w" notice="就位"/>
+		<a time="0:46" text="分摊5.5w"/>
+		<a time="0:58" text="凶残风暴"/>
+		<a time="1:13" text="击退" notice="防击退"/>
+		<a time="1:16" text="分摊5.5w"/>
+		<a time="1:27" text="真空切"/>
+		<a time="1:32" text="锢囚锋"/>
+		<a time="1:37" text="狂怒风暴"/>
+		<a time="1:43" text="连线5.5w"/>
+		<a time="1:45" text="击退"/>
+		<a time="1:50" text="凶残风暴"/>
+		<a time="2:00" text="boss上天"/>
+
+		<!--> P2 <-->
+		<a time="2:03" text="火神下地3w"/>
+		<a time="2:15" text="死刑"/>
+		<a time="2:39" text="灼热咆哮9w" notice-o="-9" notice="轮子天宫群盾"/>
+		<a time="2:45" text="接线4.5w" notice="去场中然后分散"/>
+		<a time="2:54" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="3:04" text="乱火花" notice="回场中准备疾跑"/>
+		<a time="3:16" text="地火"/>
+		<a time="3:21" text="火球判定"/>
+		<a time="3:27" text="接线4.5w" notice="去场中然后分散"/>
+		<a time="3:37" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="3:40" text="死刑"/>
+		<a time="4:02" text="boss上天"/>
+
+		<!--> P3 <-->
+		<a time="4:06" text="可以选中"/>
+		<a time="4:09" text="防火墙3w" notice="靠近风神"/>
+		<a time="4:34" text="真空切" notice="去场中左或上"/>
+		<a time="4:46" text="观察分身踢球" notice-o="-3" notice="观察分身方向"/>
+		<a time="4:51" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="4:55" text="击退"/>
+		<a time="4:54" text="凶残风暴"/>
+		<a time="5:04" text="boss上天" notice-o="0" notice="轮子群盾地星"/>
+
+		<!--> P4 <-->
+		<a time="5:22" text="烈焰风暴12w"/>
+		<a time="5:26" text="可以选中" notice="去A准备接线"/>
+		<a time="5:44" text="接线4.5w"/>
+		<a time="5:46" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="6:02" text="接线4.5w" notice-o="-6" notice="留场中不放地星"/>
+		<a time="6:04" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="6:18" text="灼热咆哮9w" notice-o="-9" notice="轮子天星地星去3"/>
+		<a time="6:21" text="凶残风暴" notice="3号点3号点准备动动动"/>
+		<a time="6:26" text="分摊5.5w"/>
+		<a time="6:34" text="乱火花" notice="回场中准备疾跑"/>
+		<a time="6:53" text="地火" notice-o="-1" notice="动动动"/>
+		<a time="6:56" text="火球判定" notice-o="-1"/>
+		<a time="7:18" text="击退 boss上天"/>
+
+		<!--> P5 <-->
+		<a time="7:22" text="可以选中" notice-o="-2" notice="地星地星去b点b点观察文字提示"/>
+		<a time="7:24" text="T奶连线"/>
+		<a time="7:27" text="地火"/>
+		<a time="7:33" text="跟随引导"/>
+		<a time="7:54" text="分摊5.5w" notice="准备去背后"/>
+		<a time="7:57" text="去背面"  notice="去背后去背后"/>
+		<a time="8:16" text="P1正常钢铁分摊5.5w" notice-o="-9" notice="去3号3号3号" />
+		<a time="8:18" text="线别被切断" notice="地星地星"/>
+		<a time="8:31" text="灼热咆哮9w" notice-o="-9" notice="轮子天宫图群盾"/>
+		<a time="8:51" text="方框连线" notice-o="-1" notice="出去"/>
+		<a time="8:52" text="连线判定4.5w" notice-o="-15" notice="去a去a留在框内"/>
+		<a time="8:56" text="回A" notice-o="0" notice="回A回A准备去3号"/>
+		<a time="8:59" text="留在分摊aoe内" notice-o="-1" notice="3333外侧分摊然后不要动不要动不要动不要动不要动"/>
+		<a time="9:10" text="[分摊停留]连线判定4.5w" notice-o="0" notice="冲冲冲"/>
+		<a time="9:42" text="凶残风暴"/>
+		<a time="9:49" text="凶残风暴"/>
+		<a time="9:58" text="boss上天"/>
+		<a time="10:01" text="击退" notice="防击退"/>
+		<a time="10:15" text="狂暴" notice="狂暴"/>
+	</s>
+</timeline>

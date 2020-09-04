@@ -1,0 +1,26 @@
+使用方式:
+0.确认你已安装cactbot插件并已经关闭ACT
+FFCafe版:
+1.首先找到你的ACT安装根目录,默认安装文件夹名称应该为"FFCafe"
+2.找到后进入 FFCafe\ACT国服整合\Plugins\cactbot\ui\raidboss\data\05-shb\ultimate 文件夹下
+3.将轮椅直接覆盖原文件即可(注意备份原文件以备不时之需)
+4.打开ACT,确保cactbot的时间轴(raidboss)已开启,具体配置方式请参考cactbot自带的使用教程
+5.在ngld悬浮窗插件设置页面下进入cactbot设置页面,在RAIDBOSS一栏展开后向下滚动找到"亚历山大绝境战: cactbot灵泉辅助功能"并勾选启用它
+
+
+呆萌ACT版:
+1.首先找到你的ACT安装根目录
+2.找到后进入 5.20.1.02(此文件夹名随机,根据ACT版本号有会有不同,请灵性)\Plugins\ACT.OverlayPlugin\cactbot\ui\raidboss\data\05-shb\ultimate文件夹下
+3.将轮椅直接覆盖原文件即可(注意备份原文件以备不时之需)
+4.打开ACT,确保cactbot的时间轴(raidboss)已开启,具体配置方式请参考cactbot自带的使用教程
+5.在OverlayPlugin悬浮窗插件设置页面下进入cactbot设置页面,在RAIDBOSS一栏展开后向下滚动找到"亚历山大绝境战: cactbot灵泉辅助功能"并勾选启用它
+
+已知BUG:过本后cactbot有概率假死,有重复+1需要请在过本后重启ACT
+
+
+声明:
+1.本人仅负责轮椅的文本国服化工作，文本参照版本为尼尼科技原版与绝亚历山大整合轮椅v4.31 by 人类为何要互相伤害，其它问题概不解决，如果出现错误请带着"你的正确观测结果"和"轮椅播报错误结果"来找我,谢谢!
+2.本轮椅提供野队一套式(P12友利郁也,P34子言)与二运通用式(二运将仅播报麻将数字,不做其余提示,P12与P4仍旧同野队一套)，P2兼容各类攻略(因为仅提醒传毒接毒人与水雷分摊时间,并不会提醒分摊位置)，
+3.P4需配合尼尼P4标点触发器使用，本轮椅附带5.2可用的本地标点模式Paisley Park
+
+联系方式:starveler@outlook.com
