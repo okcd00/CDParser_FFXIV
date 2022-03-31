@@ -8,17 +8,34 @@
 #   desc     : A simple socket server and client 
 #              for interaction between different processes.
 # =====================================================
-
-import socket, time
+import json
+import time
+import socket
 
 
 class ParsingServer(object):
+    PONAZU_PORT = 2020
+
     def __init__(self, port=2023):
+        self.serversocket = None
+        self.clientsocket = None
+        self.new_server(port=port)
+        self.new_client(port=self.PONAZU_PORT)
+
+    def new_server(self, port=2023):
         self.serversocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        self.hostname = socket.gethostname() or 'localhost'
         self.serversocket.bind(('localhost', port))
 
-    def start(self):
+    def new_client(self, port=2020):
+        self.clientsocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        self.clientsocket.bind(('localhost', port))
+
+    def send_command(self, command):
+        json_str = json.dumps({'command': command})
+        self.clientsocket.send(json_str.encode('utf-8'))
+        print(self.clientsocket.recv(1024))
+
+    def start_server(self):
         # become a server socket, maximum 10 connections
         self.serversocket.listen(5) 
         while True:
@@ -29,9 +46,9 @@ class ParsingServer(object):
                 while True:
                     buf = connection.recv(1024)
                     if len(buf) > 0:
-                        connection.send("Approved".encode('utf-8'))
+                        connection.send("Approved buf".encode('utf-8'))
                         text = buf.decode('utf-8')
-                        print(f"{sender_host}:{sender_port} says \n{text}")
+                        print(f"[{time.ctime()}] {sender_host}:{sender_port} says \n{text}")
                         if text == 'end':
                             connection.close()
                             break
@@ -55,4 +72,4 @@ class ParsingClient(object):
 
 if __name__ == '__main__':
     ps = ParsingServer()
-    ps.start(2023)
+    ps.start_server()
