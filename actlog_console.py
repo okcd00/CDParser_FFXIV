@@ -10,7 +10,7 @@
 import ctypes
 import pandas as pd
 from pprint import pprint
-from Triggernometry.id_mapping import ACTION_ID_MAPPING, STATUS_FLAG_ID_MAPPING
+from Triggernometry.id_mapping import *
 
 
 def hex2float(s):
@@ -27,8 +27,44 @@ def float2hex(s):
     return hex(cp.contents.value)
 
 
+def hex2dec(s):
+    # dec2hex: hex(16) = "0x10"
+    return int(s, 16)
+
+
 def leftpad(s):
     return f"{s:0>8}"
+
+
+def to_dmg(s):
+    _s = leftpad(s)
+    _a, _b, _c, _d = _s[:2], _s[2:4], _s[4:6], _s[6:8]
+    if _c[0] == '1':
+        return "无敌 (0伤害)"
+    elif _c[0] == '4':
+        return "巨额 (999999 伤害)"
+    delta = hex(int(_b, 16) - int(_d, 16))
+    if delta.startswith('0x'):
+        delta = delta[2:]
+    res = _d + _a + delta
+    return int(res, 16)
+
+
+def skill_flags(s):
+    res = []
+    _s = leftpad(s)
+    # _v = int(_s, 16)
+    for key, flag_name in SKILL_FLAG_ID_MAPPING.items():
+        hex_str = hex(key)
+        hit = True
+        for pivot, char in enumerate(hex_str[-1:1:-1]):
+            if char != _s[-pivot-1] and char != "0":
+                hit = False
+                break
+        # if _s.endswith(hex(key)[2:]):
+        if hit:
+            res.append(flag_name)
+    return res
 
 
 class ActLogs(object):
@@ -120,6 +156,13 @@ class ActLogs(object):
                 # 14-15 ''
                 'source_position': items[16:20],  # 99.75 88.55 0.00 -2.71
             }
+        elif action_id == '0C':  # PlayerStats
+            # [职业ID]:[力量]:[灵巧]:[耐力]:[智力]:[精神]:[信仰]:
+            # [物理攻击力]:[直击]:[暴击]:[攻击魔法威力]:[治疗魔法威力]:
+            # [信念]:[技能速度]:[咏唱速度]:0:[坚韧]
+            info = {
+                'job_id': items[1], 
+            }
         elif action_id == '14':  # StartsCasting
             info = {
                 'source_id': items[1],  # '10195F52' 
@@ -139,22 +182,24 @@ class ActLogs(object):
                 'skill_name': items[4],  # '毁荡'
                 'target_id': items[5],  # '4000B887'
                 'target_name': items[6],  # '海德林'
-                # 750003
-                # 18E30000
-                # 1B
-                # DFB8000
+                'skill_flags': skill_flags(items[7]),  # 750003  # 能力标志
+                # 'skill_damage': to_dmg(items[8]),  # 18E30000  # 能力伤害 (需要考虑偏移)
+                # 1B  # 数据偏移
+                # DFB8000  # 数据偏移
                 # 11-22 0
                 'target_hp': items[23],  # '13065478'
                 'target_maxhp': items[24],  # '13065478'
                 'target_mp': items[25],  # '10000'
                 'target_maxmp': items[26],  # '10000'
-                # 27-28 ''
+                'target_tp': items[27],  # ''
+                'target_maxtp': items[28],  # ''
                 'target_position': items[29:33],  # 99.99 90.00 0.00 0.00
                 'source_hp': items[33],  # '40917'
                 'source_maxhp': items[34],  # '40917'
                 'source_mp': items[35],  # '10000'
                 'source_maxmp': items[36],  # '10000'
-                # 37-38 ''
+                'source_tp': items[37],  # ''
+                'source_maxtp': items[38],  # ''
                 'source_position': items[39:43],  # 99.47 113.76 0.00 3.12
                 # 0000640D
                 # 0
@@ -168,20 +213,22 @@ class ActLogs(object):
                 'skill_name': items[4],  # '光之心'
                 'target_id': items[5],  # '4000B886'
                 'target_name': items[6],  # '桑克瑞德'
-                # F60E
-                # 72F0000
-                # 9-22 0
-                'target_hp': items[23],  # '56180'
-                'target_maxhp': items[24],  # '63976'
-                'target_mp': items[25],  # '34464'
+                'skill_flags': skill_flags(items[7]),  # F60E  # 能力标志
+                # 'skill_damage': to_dmg(items[8]),  # 72F0000 (需要考虑偏移)
+                # 9-22 0  # 特殊情况下的数据偏移
+                'target_hp': items[23],  # '13065478'
+                'target_maxhp': items[24],  # '13065478'
+                'target_mp': items[25],  # '10000'
                 'target_maxmp': items[26],  # '10000'
-                # 27-28 ''
+                'target_tp': items[27],  # ''
+                'target_maxtp': items[28],  # ''
                 'target_position': items[29:33],  # 99.99 90.00 0.00 0.00
-                'source_hp': items[33],  # '56180'
-                'source_maxhp': items[34],  # '63976'
-                'source_mp': items[35],  # '34464'
+                'source_hp': items[33],  # '40917'
+                'source_maxhp': items[34],  # '40917'
+                'source_mp': items[35],  # '10000'
                 'source_maxmp': items[36],  # '10000'
-                # 37-38 ''
+                'source_tp': items[37],  # ''
+                'source_maxtp': items[38],  # ''
                 'source_position': items[39:43],  # 99.47 113.76 0.00 3.12
                 # 00006459
                 # 0
