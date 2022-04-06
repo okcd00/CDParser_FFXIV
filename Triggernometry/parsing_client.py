@@ -14,7 +14,7 @@ import socket
 
 
 class ParsingClient(object):
-    def __init__(self, port=2023):
+    def __init__(self, port=2020):
         self.clientsocket = None
         self.port = port
         self.renew_client(port)
@@ -45,6 +45,7 @@ class ParsingClient(object):
         lastdata = ''
         while lastdata != "quit":
             lastdata = input("请输入要发送的数据：")
+            lastdata = json.dumps({'command': lastdata})
             if len(lastdata) > 0:
                 try:
                     self.clientsocket.sendall(lastdata.encode("utf-8"))

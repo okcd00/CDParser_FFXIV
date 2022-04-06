@@ -6,6 +6,7 @@
 #   author   : okcd00 / okcd00@qq.com
 #   date     : 2022-03-30
 #   desc     : for actlogs.
+#   https://github.com/quisquous/cactbot/blob/main/docs/LogGuide.md#special-case-shifts
 # =====================================================
 import ctypes
 import pandas as pd
@@ -48,6 +49,14 @@ def to_dmg(s):
         delta = delta[2:]
     res = _d + _a + delta
     return int(res, 16)
+
+
+def _position(_items):
+    return {
+        'x': _items[0],
+        'y': _items[1],
+        'z': _items[2],
+        'heading': _items[3]}
 
 
 def skill_flags(s):
@@ -172,7 +181,7 @@ class ActLogs(object):
                 'target_id': items[5],  # '4000B887'
                 'target_name': items[6],  # '海德林'
                 'cast_time': items[7],  # '1.46'
-                'source_position': items[8:12],  # 99.47 113.76 0.00 3.12
+                'source_position': items[8:11],  # 99.47 113.76 0.00 3.12
             }
         elif action_id == '15':  # ActionEffect
             info = {
