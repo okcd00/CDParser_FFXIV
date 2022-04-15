@@ -1,0 +1,1043 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="7c3bf7e0-f0c8-4e5c-8bde-b4db6dc40b87" Name="迷宫·四人本" Enabled="false">
+    <Folders>
+      <Folder Id="92af4d7e-1feb-4580-acc8-38c8c872f515" Name="Lv80.1_亚马乌罗提" Enabled="true">
+        <Folders>
+          <Folder Id="f8f9da78-5c20-42fd-8a5c-3bafad74ac99" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「暗影毁灭」" Id="82df322e-817b-4c09-ad34-bef572822dc1" RegularExpression="14:3CE3:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="左右炮「灭亡射线」" Id="27f0afca-06d4-4b3c-9a3a-64b0a24024b7" RegularExpression="14:3CDB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="左右炮" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="dps炮「灭亡射线」" Id="f690dabd-3fdf-4941-91b4-180128bad26d" RegularExpression="14:3CDE:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="dps炮" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="28f72503-c3c8-4670-a443-d5989877cc0a" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「爆炸」" Id="d8ca437b-49fb-4570-9cab-fcc50fa3898f" RegularExpression="14:3CD0:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE上天「绝叫」" Id="18ddd1d7-eeb6-4dac-bd1f-80ae1bf6f1b1" RegularExpression="14:3CCF:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿上天" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="8d791dfd-44de-415b-ab80-e98bf271ac5e" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="去对面「末日流星」" Id="8fd1a11b-b1f7-43a0-9f21-5b4583ff443d" RegularExpression="15:.+:3CCB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="去对面" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers>
+          <Trigger Enabled="false" Name="LastUpdated_10.23.19" Id="5c42bbac-5887-4b61-9bfb-ee2c59d90f02" RegularExpression="">
+            <Actions />
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="f8cd350d-ca90-4828-abd3-b0fee738eb50" Name="Lv80.2_孪晶塔" Enabled="true">
+        <Folders>
+          <Folder Id="07cba651-df51-4f75-bb70-627f96539729" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="红地板「人造重力」" Id="5847b19a-8d80-44bb-9207-a46dc7d92f86" RegularExpression="14:3DF9:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="红地板" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="场边激光「魔导防护激光」" Id="babd6e12-9e5a-4228-bff3-81c0be872741" RegularExpression="14:3DF2:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="场边激光" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="十字激光「魔导交叉激光」" Id="a88e2234-cb50-4d5c-8b64-ffa3d7425e7a" RegularExpression="14:3DF8:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="十字激光" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「轨道炮」" Id="da96f82c-5aa8-4607-a3d8-c3aec687a4c7" RegularExpression="14:3DFB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「高压排电」" Id="b36556c4-6313-41f0-b9d0-4846d58dda26" RegularExpression="14:3DFC:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="3e5d1e96-5c67-4a07-b586-d9c39e94dc81" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「电光束」" Id="fabb27ef-40c7-4b50-893f-69725b35ba95" RegularExpression="14:3DED:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="fcfc4dac-2fb5-495b-ba26-cb7f7affad56" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「残虐咆哮」" Id="fb823bc5-7423-4dcb-85fa-e7ccd90da004" RegularExpression="14:3D64:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「预兆」" Id="ab06b1fd-bafd-4a74-911e-3ee6e54997f1" RegularExpression="14:3D65:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="530c03c2-97ae-4d62-ae8c-895c625e3190" Name="道中" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="沉默「百廿八吨回转」" Id="819f5125-c04f-4b41-9fe3-1786591e17a0" RegularExpression="14:3DBA:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="沉默打断" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="沉默「狂暴」" Id="b0a8eb06-4d09-479f-bc6e-6aa6d4df91d3" RegularExpression="14:3DC0:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="沉默打断" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="20c3d59e-0926-43e9-a088-41abb4247ccc" Name="Lv80.3_学院" Enabled="true">
+        <Folders>
+          <Folder Id="32dd94aa-2b30-47c8-96b7-8b2ca8438fe9" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="打蓝球「雷暴」" Id="a42f2083-75ef-4be0-95e7-1d980d9a137f" RegularExpression="14:3E1A:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="打篮球" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「雷电震击」" Id="474f50cb-48af-43ce-a565-c091b23527b3" RegularExpression="14:3E23:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「落雷」" Id="7807cca0-afd6-4716-8b28-b63ff52d2fa5" RegularExpression="14:3E24:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="4531b4cd-b380-4940-b960-ba85dc2c8bde" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「树木风暴」" Id="034ba5d2-26ba-4f01-9c33-6ee103f342f1" RegularExpression="14:3E17:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="转场「花丛」" Id="352039c0-8ce4-4cde-a60b-f8a3c0205d3e" RegularExpression="14:3E13:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="转场" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="01faa7c3-4035-4918-8677-624a201c52b8" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「海之骚动」" Id="1756044f-4454-41cb-ac8f-0bc88e07ce3c" RegularExpression="14:3E06:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「原始穿孔」" Id="8509ee36-4857-4479-aec7-ec73154f83b3" RegularExpression="14:3E04:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="圆形AOE「怒潮断头台」" Id="50aaaed8-f8ea-40b2-9371-144f3b464103" RegularExpression="14:3E0A:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="圆形A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="扇形AOE「深海切割者」" Id="68709b91-1259-4713-a31a-0ac37e5e542b" RegularExpression="14:3E0B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="扇形A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="8c8481cc-6526-4a12-9b73-e7ad237f1bee" Name="道中" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="沉默「新烈光」" Id="abe8794b-a3b7-4cb9-9199-7d6ccab59ce6" RegularExpression="14:430C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="沉默打断" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers>
+          <Trigger Enabled="false" Name="LastUpdated_10.23.19" Id="22e71949-9e63-4d3e-8caa-d76370672404" RegularExpression="">
+            <Actions />
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+      <Folder Id="4020f915-dfaf-4b88-abe4-281bcd925a08" Name="Lv80.4_宇宙宮" Enabled="true">
+        <Folders>
+          <Folder Id="8f658fc0-e829-4561-b8ff-29c5ed0012b4" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「Immortal Anathema」" Id="f9be52bb-ea15-4f0a-86e0-7c64549530c9" RegularExpression="14:49A3:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「Shadowbolt」" Id="52e67c4e-3f59-4654-9f9b-d70913f25db0" RegularExpression="14:4769:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="召唤扫把「Dark Shock」" Id="5cfa1779-ef97-4ecc-ba33-5dc68c69b608" RegularExpression="14:476E:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="召唤扫把" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="7d8292c7-724d-489c-b9fa-ce95bb38f354" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「Ode To Lost Love」" Id="aad6174b-06ca-424f-9c90-53f94919c026" RegularExpression="14:471C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「Storm Of Color」" Id="9d3d4633-55b7-4df2-8b22-1088925d6dfc" RegularExpression="14:471B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="转场「Direct Seeding」" Id="97b24e0d-7ba4-4ad3-bb4c-077672a7f391" RegularExpression="14:471D:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="转场" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="搬种子「Gardener's Hymn」" Id="6ea4fe91-2c70-42f0-ab60-33acd58ae8c5" RegularExpression="14:471E:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="把种子搬出草地" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="击退「Ireful Wind」" Id="f42d7a7f-bd92-45b7-8916-909018ff36bc" RegularExpression="14:4721:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="注意击退" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="5000">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="52ae014d-aeac-4c14-8066-3a23b186d45b" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「Culling Blade」" Id="83651450-7aaf-4eb0-9ea3-dc463f371189" RegularExpression="14:4765:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「Captive Bolt」" Id="106a82b3-cb8e-4ded-b434-7d85ffe1dc60" RegularExpression="14:4764:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="左右刀「Scorching Left|Scorching Right」" Id="e00c8ac6-1741-4c8b-98ce-8361d060915d" RegularExpression="14:476(2|3):">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="注意面向" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="红点名「Otherworldly Heat」" Id="f309720b-75b0-49bb-b227-e12dde819428" RegularExpression="14:475B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="远离家具" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="蓝点名「Mortal Flame」" Id="fb51e04b-ae03-431e-864a-924f8a16c08f" RegularExpression="14:4759:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="找家具灭火" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="796b56e1-bed9-43c9-9f87-940afa182406" Name="Lv71_水滩村" Enabled="true">
+        <Folders>
+          <Folder Id="b7e68ae3-f4ba-4d35-a90c-fa9530b5576c" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「スカベンジャーズドーター」" Id="005c1a90-3ff9-4407-89c6-4f43fcb1f4da" RegularExpression="14:3DD8:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="分摊「インツーライト」" Id="958b64b3-f9a8-41b1-a5a0-474f2044449d" RegularExpression="14:4350:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="分摊" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="点名「チェーンダウン」" Id="f8e2c95c-d30e-4d6d-9b02-b60f4e440fb0" RegularExpression="14:429C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="点名" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「ヘッドクラッシャー」" Id="aeeeb189-5fda-40cf-b6a5-f4dcecc0fd99" RegularExpression="14:3DD7:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="右刀「ライト・クヌート」" Id="239b47bc-f3ee-41ce-a02f-b7234fcb38ef" RegularExpression="14:3DE6:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="右刀" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="左刀「レフト・クヌート」" Id="ddf314c5-963e-453a-8c07-e753819447a4" RegularExpression="14:3DE7:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="左刀" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="caa086a2-ba2d-4483-819a-2c2f9b19cdfc" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「ティッカー」" Id="a0bb18c8-c850-499e-89e1-e124113080bf" RegularExpression="14:3DCF:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「スコルドブライダル」" Id="96aad2d9-4e1d-434f-bf3e-e4a863120d89" RegularExpression="14:3DD0:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="麻将「フィバードフラジレーション」" Id="284946b3-130c-4b6e-ab41-17602810c386" RegularExpression="14:3DD5:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="点名麻将" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="d270196d-4224-477b-9d9c-ece19cbc920e" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「ピロリ―」" Id="1f41de1d-bd4d-43c1-a298-348c6a68763d" RegularExpression="14:3DC4:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「光の波動」" Id="8ec6737f-1052-46a0-b8af-80866badb172" RegularExpression="14:3DC5:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="d63e0710-2e53-4be3-a33e-a704fb488fb7" Name="Lv73_禁园" Enabled="true">
+        <Folders>
+          <Folder Id="3ec2e24c-bb21-47d2-ae28-de7037c1fb8d" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「痛打」" Id="1a9946a7-1b3d-4486-b5e0-55ef06d1961a" RegularExpression="14:35A4:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="上天「一本橋のファンタジア」" Id="ce7ede4e-d5d2-42b9-ba47-24c7347c2e9f" RegularExpression="14:34BA:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="上天" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「苛烈なるカプリッチョ」" Id="ca3beed7-a7fc-44f1-b705-9c967ec19a52" RegularExpression="14:358C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="青蛙「カッパの調べ」" Id="cf6da2e7-92b5-4770-8d8e-2465139928ed" RegularExpression="14:34EF:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="苟利国家生死以" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="转场「自己変異のファンタジア」" Id="28e015bc-a1c6-4b23-9050-cfdc3d9f789f" RegularExpression="14:34D1:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="转场" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="吐息「コロシヴバイル」" Id="15e78dac-a1cc-4919-95d9-50508873ea7f" RegularExpression="14:34EB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="吐息" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="b1dc80f1-191d-456a-934b-d445fe3f9bb4" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「キャンディケーン」" Id="66616a34-6554-4838-af09-3310c76505b6" RegularExpression="14:2299:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="起飞「水脈乱打」" Id="44ecfce3-2d54-420a-a21e-05d1a6032cab" RegularExpression="14:1E8E:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="我飞了" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="跳跃「飛びかかり」" Id="eaf32f26-5648-4083-8a4a-547fdd3745b8" RegularExpression="14:2294:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="跳跃" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="fca55674-46b9-465a-a377-7e7ceeddd7bc" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「ティーンバー」" Id="40efebfd-5572-4760-8f16-7dc22078cd78" RegularExpression="14:22D3:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="召小怪「絡みつく蔦」" Id="a8cd28f7-7a16-477e-99df-a5e9f4fe636a" RegularExpression="14:22C5:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="召唤小怪" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="连线「養分召喚」" Id="954609a3-a779-490a-971d-d93b8ea12c20" RegularExpression="14:22C1:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="连线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="aa046004-d688-44e4-8e1f-270e4f0ac055" Name="Lv75_神影洞" Enabled="true">
+        <Folders>
+          <Folder Id="d09fec17-ec74-46cc-ae36-19668a1ccf04" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="放圈「バイパーポイズン」" Id="d630b3a0-548e-42f4-be7e-8af628861a2b" RegularExpression="14:3C9C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="放圈" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="点名「ヘヴンスチャージ」" Id="5211697b-8593-493a-97a3-5b15c638c95f" RegularExpression="14:3C9A:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="点名" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「グロソラリア」" Id="a44dd2aa-6cef-4db6-a5f0-7953c35b74a5" RegularExpression="14:3C9B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="击退「ヒーヴィングブレス」" Id="167e46af-f809-4824-8155-fae7eaa1f651" RegularExpression="14:3CA0:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="击退" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「引き裂き」" Id="f31d2918-7253-4a79-90ae-12439b809fe6" RegularExpression="14:3C99:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="0633a6a3-35a1-4e1a-92b9-dc7ddf9d26b6" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「リッパーファング」" Id="9380ae51-b9f3-4884-b347-e1a97ca481d8" RegularExpression="14:3C91:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="小拳拳「サブソニクス」" Id="dac6680d-4da0-4d8b-85fe-bda751cdc172" RegularExpression="14:3C93:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="连续小拳拳" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「サウンドウェーブ」" Id="08b8cd85-74dc-48ed-9304-c2e26e27deca" RegularExpression="14:3C92:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="b50a23ec-9c81-40e5-b593-85d6cc928062" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「石の拳」" Id="63b8d10c-5ce7-487a-be9b-dcf5a4f316c5" RegularExpression="14:3C89:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「ロツァトルの罵声」" Id="2ef239bc-1441-4dff-93d2-ea9a996d0a62" RegularExpression="14:3C8B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" UseTTSExclusive="False" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="左右刀「ロツァトルの憤怒」" Id="21578ab8-1ea7-4aeb-9799-c9af0cbf66f7" RegularExpression="14:3C8F:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="左右刀" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="3aa05387-1333-4431-b826-1cc3a65c8004" Name="Lv77_大井" Enabled="true">
+        <Folders>
+          <Folder Id="3fa0865c-eed9-4ddd-abc4-37253bd87b15" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「デストロイ」" Id="8128fb71-7ba9-44c4-8a6e-4235cc988ce7" RegularExpression="14:3CEB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="击退「ハイプレッシャー」" Id="7f6c6710-7569-4c16-a7fd-6a5c5c4593a0" RegularExpression="14:3CEC:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="击退" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="4f9fec67-3e63-4040-903d-b2bef3db0c64" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="跳跃「フレイルスマッシュ」" Id="46c5c6e6-155c-46fa-95cf-4ebc58305e48" RegularExpression="14:3CE9:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="跳跃" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「ロックフレイル」" Id="b709e962-de5b-4c6e-8693-d4d3db693fac" RegularExpression="14:3CE5:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="击退「大回転」" Id="64562635-1759-410d-bdf7-84cf1d5de2c1" RegularExpression="14:3CE7:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="击退" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="b3a8c608-48e2-41ed-a9c4-d142d964871e" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「インテスティナルクランク」" Id="eb02e3d4-9a6c-49f0-b357-e6bfc7d0c87c" RegularExpression="14:3CF1:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+      <Folder Id="9d5208ea-8b1e-4408-9e0f-b654cd6d8c30" Name="Lv79_火山" Enabled="true">
+        <Folders>
+          <Folder Id="2edc1e0a-9446-436b-ad88-6036273e3c51" Name="老3" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="上天「フェザーマリオネット」" Id="105e2771-babc-4b5e-8333-7f402ce4f4c7" RegularExpression="14:3D1D:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="上天" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「&#xA;オリゾン・フォルティッシモ」" Id="37fa71fa-a384-4769-b1d3-05bdd1ce280d" RegularExpression="14:3D14:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「サクラメント・スフォルツァンド」" Id="6d4dbc1b-c557-4afb-a170-dd58ac45d805" RegularExpression="14:3D12:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="转场「ぺナンス・ピアニッシモ」" Id="4b29d6ba-3a84-480e-b064-276d12d2833f" RegularExpression="14:3D1C:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="转场" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="上天「ソリティアリング」" Id="5b0818de-ba2d-4378-bc7c-2f95ceafdd78" RegularExpression="14:42AA:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="上天" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="ac8ee946-e19d-4bf9-91a7-50080c2c88ac" Name="老2" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="死刑「聖句」" Id="29de9429-7750-47f1-88d7-19a2f065fa58" RegularExpression="14:3D09:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="AOE「恩赦の秘跡」" Id="ab81dded-5c09-47a6-8a69-69f18682a62c" RegularExpression="14:3D0B:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="踩塔「断罪礼儀」" Id="db8d3637-08b0-4945-9dda-e36677ed91d4" RegularExpression="14:3D0F:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="踩塔" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="d4ecbe4d-091f-48f9-a807-f73588f8eb54" Name="老1" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="AOE「サイクロンウィング」" Id="567e3041-196a-45eb-b510-7637a16c0df8" RegularExpression="14:3CFC:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="A欧亿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="死刑「ひっかき」" Id="1b0fc6dd-2a12-4d05-8f6d-839c405fb8aa" RegularExpression="14:3CFB:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="钢铁「タイフーンウィング」" Id="9c22f1d9-7ac2-46d1-b41d-f9c9a43930b2" RegularExpression="14:3D02:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="钢铁远离" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="直线「ルーメンインフィニーテム」" Id="50a43dff-fa3a-4458-846d-7df698b11ac9" RegularExpression="14:41B2:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="远离正面" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="9362d266-1118-4326-98d6-6cfc2c4449bc" Name="道中" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="沉默「ピューニティブライト」" Id="d5dd57fe-ae96-4dba-861b-77475fe5e6b2" RegularExpression="14:41AF:">
+                <Actions>
+                  <Action OrderNumber="1" UseTTSTextExpression="沉默打断" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>

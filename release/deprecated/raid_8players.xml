@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<TriggernometryExport Version="1">
+  <ExportedFolder Id="711bf2ab-e83e-431c-9aaf-beb6c4d2ebf7" Name="普通大型·八人本" Enabled="false">
+    <Folders>
+      <Folder ZoneFilterEnabled="True" Id="b6f114fa-c493-48f3-8cdf-837579237059" ZoneFilterRegularExpression="伊甸希望乐园|Eden's\ Gate:.*\w$|希望の園エデン：" Name="伊甸希望乐园" Enabled="true">
+        <Folders />
+        <Triggers>
+          <Trigger Enabled="true" Name="AoE" Id="0bbd4299-da04-426c-a118-a6dedcb2d076" RegularExpression="^.{15}14:(3D94|3D9C|3DA4|3E6D|3FC4|441B|40F7|40F8):">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="A欧意" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="月环" Id="6aca260e-c18b-4bfc-86d7-dc10bf8611df" RegularExpression="^.{15}14:(3D97|3E3C|4104):">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="月环靠近" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="false" Name="死刑" Id="46ca66dc-901e-4edd-91f0-b940aa4f2582" RegularExpression="^.{15}14:(3DA1|3E4E|3FC6|40F9):">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="死刑" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="末日虚无断" Id="e45980d6-ee4e-4cc4-9bcb-9d2b78edd101" RegularExpression="^.{15}14:3E3B">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="直线直线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="地震波" Id="e566679a-4b15-4a74-908a-e29cfba3aaec" RegularExpression="^.{15}14:40F3:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="快找掩体" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="岩盘崩落" Id="98c58fbb-2cc4-4bb6-821e-4042b8c5a472" RegularExpression="^.{15}14:40F1:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="陨石" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="大地之手甲（人）" Id="e9eac8be-bceb-494d-9f25-4ee30a1efed4" RegularExpression="^.{15}15:.{8}:.+:40E6:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="中间中间" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="大地之车轮（车）" Id="7905796e-04c3-428f-ab09-6e71318faf65" RegularExpression="^.{15}15:.{8}:.+:40E8:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="旁边旁边" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="引爆" Id="358a684c-0cb6-4e9e-b21c-98c2781f8911" RegularExpression="14:40F3:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="引爆" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="跳跃" Id="a883c0e4-9d1d-4517-9baf-43683b56250c" RegularExpression="14:40F6:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="跳跃" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="召唤石头" Id="6ddfa722-6300-4c21-95a2-98975a9c6a2d" RegularExpression="14:40EC:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="召唤石头" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="捶地" Id="a04ab7cf-8206-4be6-9b1f-fa3c5f53cc8f" RegularExpression="14:40FC:">
+            <Actions>
+              <Action OrderNumber="1" UseTTSTextExpression="中间中间" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+        </Triggers>
+      </Folder>
+    </Folders>
+    <Triggers />
+  </ExportedFolder>
+</TriggernometryExport>
