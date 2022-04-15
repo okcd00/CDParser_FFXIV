@@ -1,0 +1,3 @@
+ObjectSpawn|30c
+WantOpcode|F
+MapEffect|0253
