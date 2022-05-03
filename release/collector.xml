@@ -4,10 +4,10 @@
     <Folders>
       <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="131072" Id="de26ef5e-d5b3-4d84-969f-a748460bfbcb" Name="捕鱼" Enabled="true">
         <Folders>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="131072" Id="55ba9f53-1e7f-4a0a-8e0b-107b646f2d6c" Name="Fishing cast timer" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="131072" Id="55ba9f53-1e7f-4a0a-8e0b-107b646f2d6c" Name="Fishing cast timer" Enabled="false">
             <Folders />
             <Triggers>
-              <Trigger Enabled="true" Name="Cast over" Id="fa2a327e-17df-46be-b4e5-c36e1f0bb214" RegularExpression="弗萝北(成功钓上了|You reel in your line|上钩的鱼逃走了)" DebugLevel="Info">
+              <Trigger Enabled="true" Name="Cast over" Id="fa2a327e-17df-46be-b4e5-c36e1f0bb214" RegularExpression="(Something bites|You reel in your line|The fish gets away)" DebugLevel="Info">
                 <Actions>
                   <Action OrderNumber="1" VariableOp="SetString" VariableName="_fishcasttimer" VariableExpression="${_textaura[_fishcasttimer].text}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" Asynchronous="False">
                     <Condition Enabled="false" Grouping="Or" />
@@ -26,7 +26,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${var:_fishcasted}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="String" ConditionType="NumericEqual" />
                 </Condition>
               </Trigger>
-              <Trigger Enabled="true" Name="Show time since cast" Id="9c5281c1-8318-4845-a25d-602a871912c4" RegularExpression="弗萝北(甩出了鱼线开始钓鱼|开始利用上钩的|You cast your line in)" DebugLevel="Info">
+              <Trigger Enabled="true" Name="Show time since cast" Id="9c5281c1-8318-4845-a25d-602a871912c4" RegularExpression="(You cast your line on the|You cast your line at|You cast your line in)" DebugLevel="Info">
                 <Actions>
                   <Action OrderNumber="1" TextAuraFontSize="14.25" TextAuraForeground="#80FFFF" TextAuraBackground="Black" TextAuraName="_fishcasttimer" TextAuraExpression="${_since} seconds since cast" TextAuraXIniExpression="(${_screenwidth}/2)-200" TextAuraYIniExpression="(${_screenheight}/2)+250" TextAuraWIniExpression="400" TextAuraHIniExpression="40" TextAuraOIniExpression="80" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                     <Condition Enabled="false" Grouping="Or" />
@@ -36,33 +36,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-              </Trigger>
-            </Triggers>
-          </Folder>
-          <Folder Id="648bbab4-524d-43c3-84fd-7d18746f4e1b" Name="BUFF" Enabled="true">
-            <Folders />
-            <Triggers>
-              <Trigger Enabled="true" Sequential="True" Name="耐心" Id="d4abe0ac-575a-4939-8a94-86740a0b1387" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):[^:]*:提钩成功率降低:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
-                <Actions>
-                  <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="耐心" VariableExpression="1" TextAuraFontSize="9.07563" TextAuraFontName="宋体" TriggerOp="CancelTrigger" ActionType="Variable">
-                    <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="1A" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                    </Condition>
-                  </Action>
-                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/e 弗萝北耐心了起来" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="20">
-                    <Condition Enabled="true" Grouping="Or">
-                      <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="1A" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                    </Condition>
-                  </Action>
-                  <Action OrderNumber="3" VariableName="耐心" VariableExpression="0" TextAuraFontSize="9.07563" TextAuraFontName="宋体" TriggerOp="CancelTrigger" ActionType="Variable">
-                    <Condition Enabled="true" Grouping="And">
-                      <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="1E" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                    </Condition>
-                  </Action>
-                </Actions>
-                <Condition Enabled="true" Grouping="And">
-                  <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                </Condition>
               </Trigger>
             </Triggers>
           </Folder>
@@ -85,46 +58,53 @@
                   <ConditionSingle Enabled="true" ExpressionL="${fish}" ExpressionTypeL="String" ExpressionR="3" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
               </Action>
-              <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/ac 提钩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(100,300)}">
+              <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/ac 提钩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(150,500)}">
                 <Condition Enabled="true" Grouping="Or">
-                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="NumericLessEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="String" ExpressionR="0" ExpressionTypeR="String" ConditionType="NumericEqual" />
                 </Condition>
               </Action>
               <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/ac 精准提钩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                 <Condition Enabled="true" Grouping="And">
-                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="NumericEqual" />
                   <ConditionSingle Enabled="true" ExpressionL="${fish}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
               </Action>
               <Action OrderNumber="6" NamedCallbackName="command" NamedCallbackParam="/ac 强力提钩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                 <Condition Enabled="true" Grouping="And">
-                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                  <ConditionSingle Enabled="true" ExpressionL="${var:耐心}" ExpressionTypeL="String" ExpressionR="1" ExpressionTypeR="String" ConditionType="NumericEqual" />
                   <ConditionSingle Enabled="true" ExpressionL="${fish}" ExpressionTypeL="String" ExpressionR="2" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
-              </Action>
-              <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/ac 抛竿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(9999,12345)}">
-                <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or">
               <ConditionSingle Enabled="true" ExpressionL="${耐心}" ExpressionTypeL="String" ExpressionR="0" ExpressionTypeR="String" ConditionType="NumericEqual" />
             </Condition>
           </Trigger>
-          <Trigger Enabled="true" Name="以小钓大II" Id="ea40304b-eee5-4be7-868c-e55096ea6ef9" RegularExpression="钓到了能用作“以小钓大II”鱼饵的鱼">
+          <Trigger Enabled="true" Sequential="True" Name="耐心：钓上大尺寸的鱼几率提升" Id="d4abe0ac-575a-4939-8a94-86740a0b1387" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):[^:]*:钓上大尺寸的鱼几率提升:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
             <Actions>
-              <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 以小钓大II" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(20,100)}">
-                <Condition Enabled="false" Grouping="Or" />
+              <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="耐心" VariableExpression="1" TextAuraFontSize="9.07563" TextAuraFontName="宋体" TriggerOp="CancelTrigger" ActionType="Variable">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="1A" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+              </Action>
+              <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="耐心" VariableExpression="0" TextAuraFontSize="9.07563" TextAuraFontName="宋体" TriggerOp="CancelTrigger" ActionType="Variable">
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="1E" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
               </Action>
             </Actions>
-            <Condition Enabled="false" Grouping="Or" />
+            <Condition Enabled="true" Grouping="And">
+              <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+            </Condition>
           </Trigger>
-          <Trigger Enabled="true" Name="以小钓大" Id="6d34b252-7e1f-4313-bfda-cb4cfa2b421a" RegularExpression="以小钓大的机会！">
+          <Trigger Enabled="true" Name="出钩：抛竿" Id="f720165c-2d40-415a-a17e-d36cb5b5ef54" RegularExpression="弗萝北成功钓上了.*">
             <Actions>
-              <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 以小钓大" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(20,100)}">
+              <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 抛竿" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="${numeric:random(1000, 3333)}">
                 <Condition Enabled="false" Grouping="Or" />
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
