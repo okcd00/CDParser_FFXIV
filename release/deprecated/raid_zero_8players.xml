@@ -7567,7 +7567,7 @@
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
               </Trigger>
-              <Trigger Enabled="true" Name="麻将(第一次进本可能报错，后续应该没问题了)" Id="4fbc27e9-04f2-4df1-91ce-dcd36104b6aa" RegularExpression="1C:1[0-9A-F]{7}:(?&lt;name&gt;.*?):....:....:(?&lt;type&gt;218|219|220|221|222|223|224|225):">
+              <Trigger Enabled="false" Name="麻将(第一次进本可能报错，后续应该没问题了)" Id="4fbc27e9-04f2-4df1-91ce-dcd36104b6aa" RegularExpression="1C:1[0-9A-F]{7}:(?&lt;name&gt;.*?):....:....:(?&lt;type&gt;218|219|220|221|222|223|224|225):">
                 <Actions>
                   <Action OrderNumber="1" UseTTSTextExpression="一号一号，去衣点" UseTTSRateExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                     <Condition Enabled="true" Grouping="Or">
@@ -8131,7 +8131,7 @@
                   <Folder Id="51584a2d-29f9-4b6b-913e-6c9aa17e0de5" Name="六运 DPS11 TN6" Enabled="true">
                     <Folders />
                     <Triggers>
-                      <Trigger Enabled="true" Name="自己播报" Id="95d7777c-8c5d-40ee-8465-de4f7b9328c1" RegularExpression="^.{14} (?:\w+ )1A:AF4:.+?:(?&lt;second&gt;[^:]*):[0-9A-F]{8}::(?&lt;playerId&gt;1[0-9A-F]{7}):(?&lt;name&gt;[^:]*):">
+                      <Trigger Enabled="false" Name="自己播报" Id="95d7777c-8c5d-40ee-8465-de4f7b9328c1" RegularExpression="^.{14} (?:\w+ )1A:AF4:.+?:(?&lt;second&gt;[^:]*):[0-9A-F]{8}::(?&lt;playerId&gt;1[0-9A-F]{7}):(?&lt;name&gt;[^:]*):">
                         <Actions>
                           <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/p 1：${name}" UseTTSTextExpression="第二个拉线" UseTTSRateExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                             <Condition Enabled="true" Grouping="And">
@@ -8465,7 +8465,7 @@
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
                       </Trigger>
-                      <Trigger Enabled="false" Name="二运点名（被窝）" Id="8afb538a-59ff-4cc8-83a6-e6a0b033ef34" RegularExpression="1B:1[0-9A-F]{7}:(?&lt;name&gt;.*?):0000:E000:(?&lt;type&gt;21[6-8]):">
+                      <Trigger Enabled="true" Name="二运点名（被窝）" Id="8afb538a-59ff-4cc8-83a6-e6a0b033ef34" RegularExpression="1B:1[0-9A-F]{7}:(?&lt;name&gt;.*?):0000:E000:(?&lt;type&gt;21[6-8]):">
                         <Actions>
                           <Action OrderNumber="1" UseTTSTextExpression="暗点名" UseTTSRateExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                             <Condition Enabled="true" Grouping="Or">
@@ -8996,7 +8996,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="Tank|Healer" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/e DPS 毒" UseTTSTextExpression="DPS接毒" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/e DPS 分散，D4右下，准备接毒" UseTTSTextExpression="DPS接毒" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="Tank|Healer" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9016,7 +9016,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="8" NamedCallbackName="command" NamedCallbackParam="/e TN 毒" UseTTSTextExpression="T奶接毒" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="8" NamedCallbackName="command" NamedCallbackParam="/e TN 接毒" UseTTSTextExpression="T奶接毒" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9032,7 +9032,7 @@
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
                           </Trigger>
-                          <Trigger Enabled="true" Name="转换" Id="777cccf0-8c5e-45ae-8619-e27cae5a6c15" RegularExpression="^.{14} (?:\w+ )14:.{8}:[^:]*:69EC:">
+                          <Trigger Enabled="false" Name="转换" Id="777cccf0-8c5e-45ae-8619-e27cae5a6c15" RegularExpression="^.{14} (?:\w+ )14:.{8}:[^:]*:69EC:">
                             <Actions>
                               <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="DisableTrigger" TriggerId="07fc8661-4c70-4b0a-8222-d3c4741413c6" ActionType="Trigger">
                                 <Condition Enabled="false" Grouping="Or" />
@@ -9046,7 +9046,7 @@
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
                           </Trigger>
-                          <Trigger Enabled="true" Name="吸收1" Id="07fc8661-4c70-4b0a-8222-d3c4741413c6" RegularExpression="^.{14} (?:\w+ )23:(?&lt;playerId&gt;1.{7}):[^:]*:(4.{7}):[^:]*:.{4}:0000:00A5:[0-9A-F]{8}:000F:" PrevActionsRefire="Deny" PeriodRefire="Deny" RefirePeriodExpression="5000">
+                          <Trigger Enabled="false" Name="吸收1" Id="07fc8661-4c70-4b0a-8222-d3c4741413c6" RegularExpression="^.{14} (?:\w+ )23:(?&lt;playerId&gt;1.{7}):[^:]*:(4.{7}):[^:]*:.{4}:0000:00A5:[0-9A-F]{8}:000F:" PrevActionsRefire="Deny" PeriodRefire="Deny" RefirePeriodExpression="5000">
                             <Actions>
                               <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="SystemBeep">
                                 <Condition Enabled="false" Grouping="Or" />
@@ -9064,7 +9064,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="Tank|Healer" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/e DPS  线" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/e DPS 接线，去1点" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="Tank|Healer" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9084,7 +9084,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="9" NamedCallbackName="command" NamedCallbackParam="/e TN 线" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="9" NamedCallbackName="command" NamedCallbackParam="/e TN 线, DPS 去2点" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${_ffxiventity[${playerId}].role}" ExpressionTypeL="String" ExpressionR="DPS" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9117,7 +9117,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DF" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/e DPS 毒" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/e DPS 分散，D4右下，准备接毒" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DF" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9137,7 +9137,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DE" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/e TN 毒" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/e TN 接毒" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DE" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9179,7 +9179,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DF" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/e DPS 接线" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/e DPS 接线，去1点" UseTTSTextExpression="DPS接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DF" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9199,7 +9199,7 @@
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DE" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
                               </Action>
-                              <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/e TN 接线" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                              <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/e TN 接线，去2点" UseTTSTextExpression="T奶接线" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                                 <Condition Enabled="true" Grouping="Or">
                                   <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="69DE" ExpressionTypeR="String" ConditionType="RegexMatch" />
                                 </Condition>
@@ -9383,7 +9383,7 @@
                   </Trigger>
                   <Trigger Enabled="true" Name="エンチャンテッドペロネー：エクスプロージョン&#xA;&#xA;（撞球）" Id="6ebc051d-72b5-4917-9378-c9fba0333b85" RegularExpression="^.{14} (?:\w+ )14:.{8}:[^:]*:69D9:" PeriodRefire="Deny" RefirePeriodExpression="100">
                     <Actions>
-                      <Action OrderNumber="1" UseTTSTextExpression="撞球" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
+                      <Action OrderNumber="1" UseTTSTextExpression="撞球，顺时针" UseTTSRateExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                         <Condition Enabled="false" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${type}" ExpressionTypeL="String" ExpressionR="9" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                         </Condition>
