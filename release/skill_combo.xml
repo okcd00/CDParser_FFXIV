@@ -515,14 +515,13 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
           <Folder Id="0ac5176e-8c9b-48a9-9f3e-2213ea765f34" Name="量谱" Enabled="true">
             <Folders />
             <Triggers>
-              <Trigger Enabled="false" Name="量谱" Id="0b21fbc6-4f91-45e3-9b3c-d1dc608bf683" RegularExpression="^.{15}(?:\w+ |)1F:.{8}:(?&lt;gauge_smn_a&gt;\w+?):(?&lt;gauge_smn_b&gt;\w+?):(?&lt;gauge_smn_c&gt;\w+?):(?&lt;gauge_smn_d&gt;\w+?)$">
+              <Trigger Enabled="true" Name="量谱" Id="0b21fbc6-4f91-45e3-9b3c-d1dc608bf683" RegularExpression="^.{15}(?:\w+ |)1F:.{8}:(?&lt;gauge_smn_a&gt;\w+?):(?&lt;gauge_smn_b&gt;\w+?):(?&lt;gauge_smn_c&gt;\w+?):(?&lt;gauge_smn_d&gt;\w+?)$">
                 <Actions>
                   <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="以太超流" VariableExpression="${func:hex2dec:${func:substring(7,1):${func:padleft(48,8):${gauge_smn_c}}}}%4" TextAuraFontSize="9" TextAuraFontName="宋体" Enabled="False" ActionType="Variable" Asynchronous="False">
                     <Condition Enabled="false" Grouping="Or" />
@@ -575,6 +574,9 @@
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${skill} ${num1} ${num2}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/chotbar set ${skill} ${num1} ${num2}" TextAuraFontSize="9" TextAuraFontName="宋体" Enabled="False" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
@@ -880,7 +882,6 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
-                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1153,7 +1154,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="16777216" Id="547cdce1-87ea-4621-9319-f3c69e249fa3" Name="黑魔" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="16777216" Id="547cdce1-87ea-4621-9319-f3c69e249fa3" Name="黑魔" Enabled="false">
         <Folders>
           <Folder Id="67310f9f-6b3e-41c8-9282-49df48231464" Name="设置" Enabled="true">
             <Folders />
@@ -2676,7 +2677,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="8388608" Id="5d65a6e7-80cc-413d-bdae-979bdcda5a80" Name="白魔" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="8388608" Id="5d65a6e7-80cc-413d-bdae-979bdcda5a80" Name="白魔" Enabled="false">
         <Folders />
         <Triggers>
           <Trigger Enabled="true" Name="醒梦" Id="ce6919a3-cc6d-480e-a344-c8ff8ef409b9" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;[^:]+?):8[49]:">
@@ -8936,7 +8937,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="1073741824" Id="ac08f7a5-a95d-4909-a0b8-0e9a56cccc29" Name="机工(手柄)" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="1073741824" Id="ac08f7a5-a95d-4909-a0b8-0e9a56cccc29" Name="机工(手柄)" Enabled="false">
         <Folders>
           <Folder Id="3da18751-068e-4707-9946-eafcec8728c6" Name="1.One" Enabled="true">
             <Folders />
