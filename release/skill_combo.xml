@@ -63,6 +63,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="填充 - 单插 - Aoe" Id="ce77d1b1-b728-4b94-9851-e0cf73b2e4c3" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;迸裂|三重灾祸|星极核爆|炼狱之炎|[黄绿]宝石[迸裂之仪灾祸变]+)" PrevActions="Interrupt">
                 <Actions>
@@ -76,6 +77,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 黄宝石" Id="45b1eeb0-1aa3-4b60-921b-eb63f6833ce8" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石召唤|土神召唤|土神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -98,6 +100,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 红宝石" Id="8483df61-853c-4f5f-a29d-2e8cf948ed7f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -128,6 +131,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 绿宝石" Id="4b08910c-7311-4eb0-a1a8-13dbbd81c452" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石召唤|风神召唤|风神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -158,6 +162,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 绿" Id="c7f67872-c180-493f-a875-52db2f65b5f1" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:螺旋气流" PrevActions="Interrupt">
                 <Actions>
@@ -205,6 +210,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 红" Id="e1c9f8ec-af04-4d40-9627-fe7a94639f6a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(深红旋风|深红强袭)" PrevActions="Interrupt">
                 <Actions>
@@ -267,6 +273,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 黄" Id="a712398c-cf40-41ff-8163-1af875f5b474" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:山崩" PrevActions="Interrupt">
                 <Actions>
@@ -334,6 +341,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 红" Id="811bde44-8e4d-436a-a348-91737c70dbfd" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -392,6 +400,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 黄" Id="c532bd9a-6ae9-4150-b521-b6861b544407" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -444,6 +453,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 绿" Id="a551105d-4108-429f-8a8c-7b1489b6c8f1" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -502,6 +512,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="填充 - 单插 - One" Id="0a57fcc2-f4b4-4904-beb8-23d385530d83" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;毁灭|毁坏|毁荡|毁绝|星极脉冲|灵泉之炎|[黄绿]宝石[毁灭坏荡]+|深红旋风|深红强袭)" PrevActions="Interrupt">
                 <Actions>
@@ -515,6 +526,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -545,6 +557,7 @@
                 <Condition Enabled="false" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -567,6 +580,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏" Id="b033e1e4-c929-42b5-9db5-cc00c4cbb8ad" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -581,6 +595,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 能力" Id="9544c6f5-d550-47d6-87b9-ce9bbb28f36f" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -601,6 +616,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 单体" Id="83ace405-c973-472a-9555-8ccf3e27b9cd" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -609,6 +625,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 群体" Id="12c162ea-cc9c-4c13-a99d-efda1a3314de" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -617,6 +634,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 单群" Id="700a5988-7899-4da2-a25b-be4717a6100a" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -628,6 +646,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -650,6 +669,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="毁绝预备" Id="fd96f8d8-1699-42e6-82c5-9fbf1e7a7d3f" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8D:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -667,6 +687,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="螺旋气流预备" Id="8786da76-becf-4684-b8c1-a79b3092a9ec" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A92:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -684,6 +705,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="深红旋风预备" Id="f04df3ba-a3a6-4c72-b124-3324b6c7f346" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):AA4:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -701,6 +723,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="守护之光" Id="2ba15a43-8f5f-4e48-8384-43b7260bf31d" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8E:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -718,6 +741,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="山崩预备" Id="174aa8b3-0731-4667-9507-9c7f3cda0b85" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):B25:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -740,6 +764,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -755,6 +780,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="以太 - 能量吸收|能量抽取" Id="551964d1-0c0a-452d-aa91-28fe54a0b803" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(能量吸收|能量抽取)" PrevActions="Interrupt">
                 <Actions>
@@ -782,6 +808,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="灼热之光" Id="c01fab84-e641-4682-b63b-17890d598507" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:灼热之光" PrevActions="Interrupt">
                 <Actions>
@@ -800,6 +827,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="附体 - 龙神迸发|不死鸟迸发" Id="b5b371de-ed2f-448f-a517-cf4eb5af236a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(龙神迸发|不死鸟迸发)">
                 <Actions>
@@ -808,6 +836,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="更新能力技 - 群体" Id="67855f55-8f46-4466-9d27-ec2e911060e3" RegularExpression="^WhichSkill:" PrevActions="Interrupt">
                 <Actions>
@@ -845,6 +874,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="更新能力技 - 单体" Id="2f55352c-d824-44e4-86ca-23dbab9fbead" RegularExpression="^WhichSkill:" PrevActions="Interrupt">
                 <Actions>
@@ -882,6 +912,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -907,6 +938,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="原初的解放" Id="047a5aed-df7d-4381-b785-12ba838697c3" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 原初的解放 from">
                     <Actions>
@@ -939,6 +971,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="动乱" Id="65aed4c1-98a3-46f1-bc53-ca19e8eb1d56" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):1CDB:">
                     <Actions>
@@ -952,6 +985,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -1032,6 +1066,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1047,6 +1082,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1067,6 +1103,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="2" Id="091393aa-0768-4a15-ba40-581babcb1949" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):404E:">
                 <Actions>
@@ -1080,6 +1117,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1112,6 +1150,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏" Id="70b0303a-3a4f-49af-bd3c-64c8268b2026" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -1120,6 +1159,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="1e0e0a88-aa1e-49d0-8710-53b9f9d549fd" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:1F|25|2D|2A|29|404E|DDD|DDE):" PrevActions="Interrupt">
                 <Actions>
@@ -1135,6 +1175,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset" Id="89db7dc8-a195-45ab-8cc8-03a9668265fc" RegularExpression="^.{15}21:.{8}:4000001[02]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -1148,6 +1189,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1166,6 +1208,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="键位" Id="d86ecb09-d05f-4904-b8f5-e186bee547ff" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -1186,6 +1229,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="658bfbe6-8e5a-4237-a178-e2e4a8175ace" RegularExpression="^.{15}21:.{8}:4000001[02]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -1197,6 +1241,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1222,6 +1267,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="三连" Id="ed21d0c2-5a46-46db-88c5-dbffb1b8b6d0" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of (?:三连咏唱) from">
                     <Actions>
@@ -1239,6 +1285,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="即刻" Id="cbf1c74a-65e2-45c6-9d3c-5fddadbbce7f" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):1D89:">
                     <Actions>
@@ -1257,6 +1304,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="火苗" Id="63f442c7-6e64-40d3-8bcf-3111b8ecb68e" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 火苗 from">
                     <Actions>
@@ -1274,6 +1322,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -1312,6 +1361,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="火炎" Id="043750b0-d9b4-40cf-b4b8-b2f12de16f30" RegularExpression="^.{14} 14:8D:(?&lt;CasterName&gt;[^:]+?) starts using 火炎">
                 <Actions>
@@ -1327,6 +1377,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="绝望" Id="ef35111e-b95b-4bc1-9336-f7eed49b9495" RegularExpression="^.{14} \w+ 1F:.{8}:(?&lt;CasterName&gt;[^:]+?):4079:">
                 <Actions>
@@ -1342,6 +1393,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="冰封" Id="ff62c974-7f02-41a5-8e6f-bf88932261cf" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):9[5A]:">
                 <Actions>
@@ -1362,6 +1414,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="爆炎" Id="2dd3e6d4-95c5-4e40-ab64-d5dba133c945" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):98:">
                 <Actions>
@@ -1395,6 +1448,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="暴雷" Id="043d1479-84a2-48d7-834f-c444976518fc" RegularExpression="^.{14} 1[45]:(.{8}:(?&lt;CasterName&gt;[^:]+?):99:)|(99:(?&lt;CasterName&gt;[^:]+?) starts)">
                 <Actions>
@@ -1417,6 +1471,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="冰澈" Id="0aaa0737-9b8a-4de6-bf24-9cabefd0b902" RegularExpression="^.{14} 1[45]:(.{8}:(?&lt;CasterName&gt;[^:]+?):DF8:)|(DF8:(?&lt;CasterName&gt;[^:]+?) starts)">
                 <Actions>
@@ -1427,6 +1482,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="异言" Id="603972d3-3591-4a92-abe2-18a05ad8098e" RegularExpression="^.{14} \w+ 1F:.{8}:(?&lt;CasterName&gt;[^:]+?):407B:">
                 <Actions>
@@ -1440,6 +1496,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1467,6 +1524,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].job}" ExpressionTypeL="String" ExpressionR="Blm" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1500,6 +1558,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar Set" Id="f49f3ccb-3293-466a-912a-7f72210b9734" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -1508,6 +1567,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break2" Id="ad616c63-9e97-41a0-8a82-08dcbe48514b" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):1D3[BCDE]:" PrevActions="Interrupt">
                 <Actions>
@@ -1527,6 +1587,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset2" Id="c34ee5b5-6b7d-4a50-bd86-b4cc4bd62588" RegularExpression="(?&lt;name&gt;[^:]+?)的职业转换成了“武士”。">
                 <Actions>
@@ -1548,6 +1609,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break" Id="6abcc379-8ac7-488e-bc75-ac1a04925b7b" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):1D3[56789A]:" PrevActions="Interrupt">
                 <Actions>
@@ -1570,6 +1632,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset" Id="5363320a-6619-42fe-b0a4-84aefd071f32" RegularExpression="^.{15}21:.{8}:4000001[02]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -1601,6 +1664,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1622,6 +1686,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -1972,6 +2037,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2104,6 +2170,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="45" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2164,6 +2231,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="真北" Id="a7f2a77c-7ed9-45fb-8d66-e332ec01749b" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):1D4B:">
                 <Actions>
@@ -2174,6 +2242,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="意气" Id="dd0d60f8-e451-408b-85ea-a9903f5255cb" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;shan&gt;(1D3[567]|4062)):">
                 <Actions>
@@ -2199,6 +2268,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="叶隐" Id="a1cf3bca-931e-4d8d-9aae-f210090c9c4d" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;shan&gt;(1D47|1D38)):">
                 <Actions>
@@ -2225,6 +2295,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="回天" Id="4e338225-141b-46f9-9957-a606a7a791f3" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;shan&gt;(1D3[589A])):">
                 <Actions>
@@ -2252,6 +2323,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2287,6 +2359,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="PlanA" Id="c3d082fa-902d-45dc-99eb-809c93c90470" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;jq&gt;(3F0[9AB]|3F1[12369CDEF]|3F2[245])):">
                 <Actions>
@@ -2448,6 +2521,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2482,6 +2556,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="6ce64e03-a72b-4d64-86e2-679b6d529cfe" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -2499,6 +2574,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar set" Id="4bcf45c3-86f7-4c5d-83d8-e9deb7777b25" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -2507,6 +2583,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="c1405320-aadb-4ccb-95ec-96aca7ccde01" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:3F09|3F0B|3F11):" PrevActions="Interrupt">
                 <Actions>
@@ -2526,6 +2603,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break2" Id="5337d80b-42fa-405e-9c5a-b316741d9d7b" RegularExpression="^.{15}15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:3F12|3F13|3F16):" PrevActions="Interrupt">
                 <Actions>
@@ -2542,6 +2620,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset2" Id="d1be6cd3-804a-4b20-9b6d-0f65bb6f8778" RegularExpression="(?&lt;name&gt;[^:]+?)的职业转换成了“绝枪战士”。">
                 <Actions>
@@ -2558,6 +2637,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2574,6 +2654,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="false" ExpressionL="${_ffxivparty[${_ffxivplayer}].job}" ExpressionTypeL="String" ExpressionR="Gnb" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2631,6 +2712,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2658,6 +2740,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="退避" Id="22f933e8-2e96-4616-a1cf-73e06d6b604f" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):1D71:">
                 <Actions>
@@ -2671,6 +2754,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2691,6 +2775,7 @@
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -2706,6 +2791,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="1a2d7a63-1902-4d92-b5e4-f61c70193ba5" RegularExpression="^.{14} 21:.{8}:4000001[02]|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -2722,6 +2808,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="00be1d89-a003-44b9-ac0c-dd02c7f996f9" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -2739,6 +2826,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="f463f5a8-ba1d-47db-9020-8b830b2154dc" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):(?:4B|57|58|DE4|DE2|405F|4E|54):" PrevActions="Interrupt">
                 <Actions>
@@ -2752,6 +2840,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break2" Id="4b4e952d-8121-4811-b63a-9fe0e012475c" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+?):(5A|56|1CE5|405D):">
                 <Actions>
@@ -2762,6 +2851,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="c4d4f069-ea4a-491c-bef2-c4902bb3fbba" RegularExpression="">
                 <Actions>
@@ -2770,6 +2860,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2785,6 +2876,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="死天枪" Id="bd64a437-f185-4078-b9e1-5c38d99547dd" RegularExpression="^.{15}1[56]:.{8}:(?&lt;name&gt;.+):56:">
                 <Actions>
@@ -2796,6 +2888,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="62" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="音速刺" Id="60152ca9-700f-433b-8946-5956907c88ff" RegularExpression="^.{15}1[56]:.{8}:(?&lt;name&gt;.+):1CE5:">
                 <Actions>
@@ -2813,6 +2906,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="2fd6cce5-793e-4b20-99fe-5751a2804cd8" RegularExpression="^.{15}1[56]:.{8}:(?&lt;name&gt;.+):(?:56|1CE5|405D):" PrevActions="Interrupt">
                 <Actions>
@@ -2823,6 +2917,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="62a0f945-c1fa-41b6-a605-4bc66bcccf70" RegularExpression="">
                 <Actions>
@@ -2831,6 +2926,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break2" Id="640aeba4-b9b0-4b83-8b03-b4cba67607d0" RegularExpression="^.{15}1[56]:.{8}:(?&lt;name&gt;.+?):(?:5A|4B|57|58|4E|54|405F|DE2|DE4):">
                 <Actions>
@@ -2841,6 +2937,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -2858,6 +2955,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="gains" Id="d4503722-04e9-4999-83d3-817198fbd023" RegularExpression="^.{27}(?&lt;name&gt;.+?) gains the effect of (?&lt;skill&gt;龙牙龙爪|龙尾大回旋)效果提高">
                     <Actions>
@@ -2889,6 +2987,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -2913,6 +3012,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="开膛枪" Id="da663c98-df43-45da-b600-cf229dd5a68f" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):57:">
                     <Actions>
@@ -2942,6 +3042,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -2976,6 +3077,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="直刺" Id="a365bb26-1198-49e5-9503-585ba0103a0a" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):54:">
                     <Actions>
@@ -2991,6 +3093,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -3013,6 +3116,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="龙剑" Id="53b5b42d-98a5-44f2-9de1-e42b0e3c152c" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):53:">
                 <Actions>
@@ -3023,6 +3127,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="猛枪" Id="8de44eb7-cb67-4f85-9ca8-3358ba9deb5a" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):55:">
                 <Actions>
@@ -3033,6 +3138,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="武神枪" Id="eab2d394-0727-4c0c-9247-533d0d99fa16" RegularExpression="^.{15}15:.{8}:(?&lt;name&gt;.+):DE3:">
                 <Actions>
@@ -3043,6 +3149,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3313,6 +3420,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3322,6 +3430,7 @@
               <Trigger Enabled="true" Name="Reset" Id="bded2e23-f56b-44f9-bbf4-707dc8c49cde" RegularExpression="^.{15}21:.{8}:4000001[026]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束" EditAutofire="True">
                 <Actions />
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar Set" Id="3944fdf9-c71a-4a80-b67e-526b6eda9ecf" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -3330,6 +3439,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="3e6a1051-7a42-4f8b-98c9-3b4e21ca8fa1" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -3350,6 +3460,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="26a88c6d-eb6f-4808-854a-72738adb1a23" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:8C0|8C2|8CF|DEB):" PrevActions="Interrupt">
                 <Actions>
@@ -3369,6 +3480,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break2" Id="95d9d5e4-bcb9-420c-a7b9-6e37548b80f4" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:8CE|4068):" PrevActions="Interrupt">
                 <Actions>
@@ -3387,6 +3499,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset2" Id="03dbff7e-4cc4-4bcb-b33f-e2ef65d7a55f" RegularExpression="^.{15}00:0839:(?&lt;name&gt;[^:]+?)的职业转换成了“忍者”">
                 <Actions>
@@ -3400,6 +3513,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3441,6 +3555,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3461,6 +3576,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3476,6 +3592,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="结印" Id="13d2f64b-25b1-4386-b0d3-beba7fa266bb" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 结印 from">
                 <Actions>
@@ -3488,6 +3605,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="忍术" Id="1c13fbd9-7497-4181-b736-4e99c57a6195" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(8D[ABCDEF]|406C):" Scheduling="FromLastAction">
                 <Actions>
@@ -3498,6 +3616,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3520,6 +3639,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="水遁" Id="7b4b590d-87f7-4e08-9af8-404e500a7d0b" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 水遁之术 from">
                 <Actions>
@@ -3537,6 +3657,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="断绝" Id="b0d78dfb-4e37-4ac3-8466-4b8bd7f22971" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 断绝预备 from">
                 <Actions>
@@ -3559,6 +3680,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="风遁" Id="f23055fd-5ade-46b8-9d31-13be0ef324b3" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):8DD:" Scheduling="FromLastAction">
                 <Actions>
@@ -3569,6 +3691,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="天地人" Id="39df6df2-3ece-4be7-8abb-df59030f4986" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) (?&lt;type&gt;gains|loses) the effect of 天地人 from">
                 <Actions>
@@ -3586,6 +3709,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3613,6 +3737,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="清印" Id="345e863d-81a1-4c60-b348-ff31e091e905" RegularExpression="^.{14} 1E:.{8}:(?&lt;CasterName&gt;.+?) loses the effect of 结印 from">
                 <Actions>
@@ -3623,6 +3748,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="结印 " Id="7748b9d5-bbb2-455d-9bff-f53a827aee26" RegularExpression="^.{14} 00:0038:action (.遁之术)" PrevActions="Interrupt" Description="设置三个宏放在天/地/人之印的键位上：&#xD;&#xA;&#xD;&#xA;/e action 天之印&#xD;&#xD;&#xA;/micon 天之印&#xD;&#xA;&#xD;&#xA;/e action 地之印&#xD;&#xD;&#xA;/micon 地之印&#xD;&#xA;&#xD;&#xA;/e action 人之印&#xD;&#xD;&#xA;/micon 人之印&#xD;&#xA;&#xD;&#xA;开始激情连打">
                 <Actions>
@@ -3714,6 +3840,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="说明" Id="322f402f-aa36-40d3-9303-cb60a9da39cd" RegularExpression="">
                 <Actions>
@@ -3734,6 +3861,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3759,6 +3887,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${Name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="loses" Id="c9e57369-bf4b-462d-9034-943d518a358d" RegularExpression="^.{15}1E:.{8}:(?&lt;Name&gt;.+?) loses the effect of 连击效果提高 from" PrevActions="Interrupt">
                     <Actions>
@@ -3772,6 +3901,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${Name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -3789,6 +3919,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="双掌打" Id="39e863f5-3d7d-470a-b66e-199ca24d8c59" RegularExpression="^.{15}1A:.{8}:(?&lt;Name&gt;.+?) gains the effect of 双掌打 from .+? for (?&lt;Time&gt;.+?) Seconds\.$" PrevActions="Interrupt">
                 <Actions>
@@ -3802,6 +3933,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${Name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="疾风迅雷" Id="07ae3b1b-746a-4b36-83df-08fc921b5e22" RegularExpression="^.{15}1F:.{8}:[^:]+?:(?&lt;gauge&gt;.+?):">
                 <Actions>
@@ -3810,6 +3942,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -3827,6 +3960,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="当前体式技能" Id="1a7dc975-c492-40f0-ba74-27c5148d552f" RegularExpression="^.{15}1A:.{8}:(?&lt;name&gt;.+?) gains the effect of (?&lt;form&gt;盗龙形|猛豹形|魔猿形) from">
                     <Actions>
@@ -3862,6 +3996,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -3875,6 +4010,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="gains" Id="02e1f347-d0f2-4644-9b9d-e8d19e9c62e1" RegularExpression="^.{15}1A:.{8}:(?&lt;Name&gt;.+?) gains the effect of 连击效果提高 from" PrevActions="Interrupt">
                     <Actions>
@@ -3885,6 +4021,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${Name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -3961,6 +4098,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="loses" Id="1f4f737f-038b-4076-9a1a-b55f95aa21dc" RegularExpression="^.{15}1E:.{8}:(?&lt;name&gt;.+?) loses the effect of 震脚 from">
                     <Actions>
@@ -3992,6 +4130,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="震脚:破碎拳&amp;崩拳&amp;双掌打" Id="23363f0d-2881-4002-b4ae-c3e4d57472b6" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:42|38|3D):">
                     <Actions>
@@ -4021,6 +4160,7 @@
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${evar:MNKOK_震脚}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="震脚:双龙脚&amp;连击" Id="94b4ba51-6858-44d7-bf81-214949b0032b" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:4A|35):">
                     <Actions>
@@ -4083,6 +4223,7 @@
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${evar:MNKOK_震脚}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="破碎拳&amp;崩拳&amp;星岛六合脚&amp;无我" Id="ae42638c-c68e-4975-810a-50c23fb75ecf" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:42|38|405C):|^.{15}1E:.{8}:(?&lt;name&gt;.+?) loses the effect of 无我 " PrevActions="Interrupt">
                     <Actions>
@@ -4094,6 +4235,7 @@
                       <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -4117,6 +4259,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="2双掌打&amp;正拳" Id="fe09d912-3487-482b-bf5b-f7bc95d4a0ff" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:3D|36):">
                 <Actions>
@@ -4136,6 +4279,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="3破碎拳&amp;崩拳" Id="9f28d884-87b4-4c1e-bc34-e5a018452ca3" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:42|38):">
                 <Actions>
@@ -4158,6 +4302,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="56504777-f93e-4c46-a497-bc07e9f352b7" RegularExpression="^.{15}1A:.{8}:(?&lt;name&gt;.+?) gains the effect of (?&lt;form&gt;盗龙形|猛豹形|魔猿形) from" PrevActions="Interrupt">
                 <Actions>
@@ -4168,6 +4313,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4189,6 +4335,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="禁忌设置" Id="fa8b88a5-a9c3-41a7-8b72-b993066bb09d" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -4212,6 +4359,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4246,6 +4394,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${Name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4278,6 +4427,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="触发器关闭" Id="3e9b26f2-64b6-4cbe-b5f7-f86dc3276ac8" RegularExpression="!别玩武僧">
                     <Actions>
@@ -4322,6 +4472,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Source="None" Name="身形清零" Id="9284b4c9-2f66-44ff-97ab-e3e94b505c33" RegularExpression="">
                     <Actions>
@@ -4336,6 +4487,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -4351,6 +4503,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="破碎拳" Id="a33b4ea0-3565-47b4-9be2-9350e793e6ef" RegularExpression="^.{14} 1A:.{8}:(?&lt;id&gt;.+?) gains the effect of 破碎拳 from (?&lt;name&gt;[^:]+?) for (?&lt;time&gt;[\d]{2}[,\.][\d]{2})">
                     <Actions>
@@ -4361,6 +4514,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -4407,6 +4561,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="震脚调整" Id="811c098b-a071-4f6c-91e5-0ec8597a365c" RegularExpression="^.{14} 15:.{8}:(?&lt;name&gt;[^:]+?):45:">
                     <Actions>
@@ -4426,6 +4581,7 @@
                     <Condition Enabled="true" Grouping="And">
                       <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -4466,6 +4622,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -4497,6 +4654,7 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -4594,6 +4752,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4607,6 +4766,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="78ae5951-e5a3-4671-9f32-2db99addf196" RegularExpression="^.{15}21:.{8}:4000001[026]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -4624,6 +4784,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="edb37ece-be9f-4721-b7e8-64e76c272de7" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -4641,6 +4802,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4663,6 +4825,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].job}" ExpressionTypeL="String" ExpressionR="Brd" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4686,6 +4849,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="纷乱" Id="abce5b4c-a48c-47c3-ad8f-2aa44c84f2ba" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):6B:">
                 <Actions>
@@ -4699,6 +4863,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="辉煌箭" Id="0d5ac67e-ee29-44ce-86e1-c88a67010f77" RegularExpression="^.{14} 1[AE]:.{8}:(?&lt;CasterName&gt;.+?) gains the effect of 直线射击预备 from">
                 <Actions>
@@ -4709,6 +4874,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="DOT" Id="6e579cda-0a4b-45fc-afee-16c3bf039abb" RegularExpression="^.{14} 1A:.{8}:(?&lt;TargetName&gt;[^:]+?) gains the effect of (?:狂风蚀箭) from (?&lt;CasterName&gt;.+?) for" PrevActions="Interrupt">
                 <Actions>
@@ -4722,6 +4888,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="RAP" Id="4c2c34fa-6aab-4830-b94c-1b0883ba3854" RegularExpression="^.{14} 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;Rap&gt;DE7||72|74):">
                 <Actions>
@@ -4744,6 +4911,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4774,6 +4942,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="失血箭" Id="29f30c40-08ae-4cef-9892-0c1102941d50" RegularExpression="^.{14} 15:.{8}:(?&lt;CasterName&gt;[^:]+?):6E:">
                 <Actions>
@@ -4786,6 +4955,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -4827,6 +4997,7 @@
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList.indexof(${target})}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                         </Condition>
+                        <Conditions />
                       </Trigger>
                       <Trigger Enabled="true" Source="FFXIVNetwork" Name="Damage Down" Id="e15b17af-b219-492a-82c8-3f48125fa0b8" RegularExpression="(?i)^26\|[^\|]+\|(?:3e|d7|274|2b8|3f8|442|82c|964|9da)\|[^\|]+\|(?&lt;time&gt;[^\|]+)\|[^\|]*\|[^\|]*\|1.{7}\|(?&lt;target&gt;[^\|]+)\|">
                         <Actions>
@@ -4840,6 +5011,7 @@
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList.indexof(${target})}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                         </Condition>
+                        <Conditions />
                       </Trigger>
                       <Trigger Enabled="true" Source="FFXIVNetwork" Name="Dead" Id="c9d18bf8-5e5a-4dad-9df9-ece28be5726d" RegularExpression="^25\|[^\|]+\|1.{7}\|([^\|]+)\|">
                         <Actions>
@@ -4853,6 +5025,7 @@
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList.indexof($1)}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                         </Condition>
+                        <Conditions />
                       </Trigger>
                     </Triggers>
                   </Folder>
@@ -4868,6 +5041,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener3" Id="60881d24-958c-4244-bcda-a567056aaf55" RegularExpression="">
                             <Actions>
@@ -4876,6 +5050,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener4" Id="98adad1e-dd00-4166-ba66-20ffc1238e1d" RegularExpression="">
                             <Actions>
@@ -4884,6 +5059,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener5" Id="54d27bbf-50a2-4dd1-a74b-f5826c42ef91" RegularExpression="">
                             <Actions>
@@ -4892,6 +5068,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener6" Id="9e72218e-4188-4f19-b463-bdff0f67f5f9" RegularExpression="">
                             <Actions>
@@ -4900,6 +5077,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener7" Id="77114dae-aed0-4d44-a440-578b8aef76c2" RegularExpression="">
                             <Actions>
@@ -4908,6 +5086,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Source="None" Name="Opener8" Id="5f80d477-6331-4a62-9a19-822b7c8c2f4b" RegularExpression="">
                             <Actions>
@@ -4916,6 +5095,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Name="2. Battle Start!!" Id="cb50cc82-f5ca-4843-840f-8a3ac5005f45" RegularExpression="(?i)^.{14} \w+ 00:0039::?(?:战斗开始！|Engage!|戦闘開始！)">
                             <Actions>
@@ -4942,6 +5122,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                           <Trigger Enabled="true" Sequential="True" Name="1. Count Down" Id="70a99ae2-bbf5-4ee4-97f4-ae1b08bbc0a8" RegularExpression="(?i)^.{14} \w+ 00:(?:00b9|0139)::?(?:距离战斗开始还有|Battle commencing in |戦闘開始まで)(?&lt;cd&gt;\d+)[^（(]+[（(]" PeriodRefire="Deny" RefirePeriodExpression="1000">
                             <Actions>
@@ -4968,6 +5149,7 @@
                               </Action>
                             </Actions>
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                         </Triggers>
                       </Folder>
@@ -4989,6 +5171,7 @@
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
                       </Trigger>
                       <Trigger Enabled="true" Source="FFXIVNetwork" Name="1. Skill" Id="1dd28262-53aa-49e2-8f7e-19da1ae09896" RegularExpression="^21\|[^\|]+\|.{8}\|(?&lt;caster&gt;[^\|]+)\|(?&lt;id&gt;[^\|]+)\|">
                         <Actions>
@@ -5035,6 +5218,7 @@
                           <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList.indexof(${caster})}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                           <ConditionSingle Enabled="true" ExpressionL="hex2dec(${id})" ExpressionTypeL="Numeric" ExpressionR="${ptvar:AstAutoCard[2][${numeric:(${_ffxiventity[${caster}].jobid}-17)}]}" ExpressionTypeR="Numeric" ConditionType="StringEqualCase" />
                         </Condition>
+                        <Conditions />
                       </Trigger>
                     </Triggers>
                   </Folder>
@@ -5055,6 +5239,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList.indexof(${target})}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -5068,6 +5253,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                   <Trigger Enabled="true" Name="国服" Id="47cd213c-3f06-48e4-a77a-92d5ca2db45c" RegularExpression="^.{14} \w+ 00:0038::AstTeamList:([^ :]+):([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?:([^: ]+?)?(?:水晶塔|银泪湖|太阳海岸|伊修加德|红茶川|紫水栈桥|延夏|静语庄园|摩杜纳|海猫茶屋|柔风海湾|琥珀原|白银乡|白金幻象|神拳痕|潮风亭|旅人栈桥|拂晓之间|龙巢神殿|梦羽宝境|红玉海|神意之地|拉诺西亚|幻影群岛|萌芽池|宇宙和音|沃仙曦染|晨曦王座)?$">
                     <Actions>
@@ -5076,6 +5262,7 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -5135,6 +5322,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${lvar:AstTeamList[1]}" ExpressionTypeL="String" ExpressionTypeR="String" ConditionType="StringNotEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="4. Macro" Id="c883784b-9632-4797-9a54-bf5638ef597d" RegularExpression="(?i)^.{14} (?:\w+ |)00:0038::?/(Play|出卡|プレイ)$" PrevActions="Interrupt">
                 <Actions>
@@ -5243,6 +5431,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Source="None" Sequential="True" Name="2. Get" Id="8c19ce66-da62-43bb-adc9-61914e59b06e" RegularExpression="^.+$">
                 <Actions>
@@ -5316,6 +5505,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="1. PartyList" Id="962cb341-59ed-4403-97a8-69de276babe2" RegularExpression="(?i)^.{14} \w+ 0B:">
                 <Actions>
@@ -5326,6 +5516,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${_duration}" ExpressionTypeL="String" ExpressionR="0" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5356,6 +5547,7 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
           <Trigger Enabled="false" Name="Debug" Id="540c7325-971a-40b8-8f54-d0bc035e8815" RegularExpression="">
             <Actions>
@@ -5388,6 +5580,7 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -5414,6 +5607,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar set" Id="ca5f9a8c-904c-4e15-97d7-b433c05a745c" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -5422,6 +5616,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break_Aoe" Id="9fe5796f-cd64-4d69-8080-09668b262789" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;combo&gt;1CD5|4049):" PrevActions="Interrupt">
                 <Actions>
@@ -5445,6 +5640,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="d44e48e6-4dcc-4144-8f63-550a697b39d4" RegularExpression="^.{15}(?:\w+ |)(21:.{8}:4000001[02]|00:0039:距离战斗开始还有15秒！|00:0839:“.*?”任务结束)" EditAutofire="True">
                 <Actions>
@@ -5483,6 +5679,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break" Id="d4b9bf97-ab86-454f-abf8-55a2e1475764" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;qs&gt;09|0F|15|DD2|DD3):" PrevActions="Interrupt">
                 <Actions>
@@ -5506,6 +5703,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset2" Id="16b7b748-7b24-4f2c-9b45-48b097ace922" RegularExpression="(?&lt;name&gt;[^:]+?)的职业转换成了“骑士”。">
                 <Actions>
@@ -5531,6 +5729,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5672,6 +5871,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="忠义之剑" Id="09c42f5b-9168-4463-8891-19d8060fdfeb" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):76E:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -5689,6 +5889,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="安魂祈祷" Id="d16899cd-c189-464c-8618-9efd30df0716" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):558:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):[^:]*:[^:]*:(?&lt;ah&gt;\w+?):">
                 <Actions>
@@ -5707,6 +5908,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Combo" Id="19ab1200-ab4f-4157-a858-d11188ad8018" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(.*?)1B:(?&lt;combo&gt;(9|F|15|DD[32]|404B|649[456]|1CD5|4049))8000:">
                 <Actions>
@@ -5782,6 +5984,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5842,6 +6045,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5855,6 +6059,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5873,6 +6078,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="盾阵" Id="64827fbf-773e-4fc1-914a-6cb2c25adcee" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(09|14|15|0F|DD2|DD3|404B|404C|1CD5|4049|404A|1CD7|1CD8|404B|404C|649[3456]):">
                 <Actions>
@@ -5886,6 +6092,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5904,6 +6111,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="15ce30a4-d61f-4f1c-851c-a16ac95a3c78" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -5921,6 +6129,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="8ee901e7-e213-4bfa-a35a-675fa44e2421" RegularExpression="^.{15}21:.{8}:4000001[02]|^.{15}00:0039:距离战斗开始还有15秒！|^.{15}00:0839:“.*?”任务结束">
                 <Actions>
@@ -5939,6 +6148,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Mark" Id="0ac0342a-c1c0-4f9c-915b-35f97f86b4da" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -5956,6 +6166,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -5975,6 +6186,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -6135,6 +6347,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -6339,6 +6552,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -6361,6 +6575,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="赤火炎" Id="ed398e8e-f520-4069-ac29-9ffc12101630" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):4D2:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -6378,6 +6593,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="促进" Id="87187e45-0d1c-44e0-8c7d-565dd71ecac0" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):4D6:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -6395,6 +6611,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="连续咏唱" Id="af433b43-98e3-4414-9edd-ff1bd8f912d0" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):4E1:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -6412,6 +6629,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -6427,6 +6645,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="2.交击斩" Id="2de51710-4477-4297-8b4b-60a9a61f605c" RegularExpression="^.{15}(?:\w+ |)15:.{8}:(?&lt;CasterName&gt;[^:]+?):(1D58|1D68):">
                 <Actions>
@@ -6442,6 +6661,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="1.回刺" Id="63be1f91-b24a-4a95-a8a3-62361716e4d4" RegularExpression="^.{15}(?:\w+ |)15:.{8}:(?&lt;CasterName&gt;[^:]+?):(1D50|1D67):">
                 <Actions>
@@ -6455,6 +6675,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="3.连攻" Id="4a7a44b0-0a9a-489b-941f-bc25067b3b19" RegularExpression="^.{15}(?:\w+ |)15:.{8}:(?&lt;CasterName&gt;[^:]+?):(1D5C|1D69):">
                 <Actions>
@@ -6479,6 +6700,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="4.核爆|神圣" Id="50beec9c-5584-4e22-b5de-ec5951fbea46" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):1D6[56]:">
                 <Actions>
@@ -6496,6 +6718,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="5.焦热" Id="e478c10a-b4d4-44f4-b967-fff08b12b0ff" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):4092:">
                 <Actions>
@@ -6513,6 +6736,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="false" Name="#魔六连" Id="dfe9a692-e2e7-4cf2-89d1-5aba2c437e8e" RegularExpression="^.{15}(?:\w+ |)15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;six&gt;(1D5[DF08C]|1D6[789]|1D6[56]|4092|6502|1D61)):">
                 <Actions>
@@ -6598,6 +6822,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -6781,6 +7006,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${evar:超荷}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="RegexMatch" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Ngcd" Id="63e21760-2d75-4633-9ecd-896b794ef79e" RegularExpression="^.{14} \w+ 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;dan&gt;B[34]A|4075|B3[0C]|1CF[26]):" PeriodRefire="Deny" RefirePeriodExpression="100">
                 <Actions>
@@ -7065,6 +7291,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Ngcd-B" Id="f37f13e2-31a8-46e0-9325-cb8dc7713c0b" RegularExpression="^.{14} \w+ 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;dan&gt;B[34]A|4075|B3[0C]|1CF6):" PeriodRefire="Deny" RefirePeriodExpression="100">
                 <Actions>
@@ -7200,6 +7427,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7222,6 +7450,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="3662d9d6-242c-4e0d-b4ac-ea795f8063bd" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;bk&gt;1CF[345]|B3[2469]|64BA):" PrevActions="Interrupt">
                 <Actions>
@@ -7247,6 +7476,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="01564405-8cb0-46d5-9c65-9a3132d1d5f2" RegularExpression="^.{15}(?:\w+ |)21:.{8}:4000001[02]|^.{15}(?:\w+ |)00:0039:距离战斗开始还有15秒！|^.{15}(?:\w+ |)00:0839:“.*?”任务结束" EditAutofire="True">
                 <Actions>
@@ -7260,6 +7490,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Mark" Id="3ebf75f4-8034-435a-947f-33779386deb9" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -7308,6 +7539,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Hotbar set" Id="96a4e675-896d-4d1f-9c72-0aff28f0ffa3" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num&gt;\d+)$">
                 <Actions>
@@ -7334,6 +7566,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7358,6 +7591,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7414,6 +7648,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="野火" Id="db0ecd43-1e28-4999-9655-6da96aff74b7" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;[^:]+?):B3E:">
                 <Actions>
@@ -7429,6 +7664,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Fire" Id="d4755713-7298-422a-810e-29497d6fb413" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;.+?):(?&lt;fire&gt;1CF[345]|B3[249]|B36|64BA):">
                 <Actions>
@@ -7474,6 +7710,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${evar:超荷}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="RegexMatch" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7617,6 +7854,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7652,6 +7890,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -7726,6 +7965,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="ONE" Id="6587ed24-09d6-42f5-810f-d77f828b6326" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;.+?):(?&lt;one&gt;(3E7[5678]|3E8[34579BD]|64B[EF]|64C0|3F3F|3F4[01234])):">
                 <Actions>
@@ -8018,6 +8258,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8164,6 +8405,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8209,6 +8451,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${evar:DNCOK_no}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="结束" Id="3d8c8156-6eb0-40ae-aa6f-816bfe4b24ce" RegularExpression="^.{15}(?:\w+ |)1E:71[AB]:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8225,6 +8468,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="跳舞" Id="ccae58e8-5986-462f-8d2e-886e9eb9dff1" RegularExpression="^.{15}(?:\w+ |)15:.{8}:(?&lt;CasterName&gt;.+?):(?&lt;bj&gt;3E7D|3E7E):" PrevActions="Interrupt">
                 <Actions>
@@ -8261,6 +8505,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8280,6 +8525,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="5431187a-73c0-4ca2-a855-abec7b14b6a8" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;R&gt;3E7[56]):" PrevActions="Interrupt">
                 <Actions>
@@ -8306,6 +8552,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Mark" Id="734c1075-3597-4dc4-883b-a317bc98a66f" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -8338,6 +8585,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Ready" Id="7eb8b69c-ffd2-4c11-9cd0-7ef480bb1d18" RegularExpression="^.{15}(?:\w+ |)00:0039::距离战斗开始还有15秒！|戦闘開始まで15秒！">
                 <Actions>
@@ -8352,6 +8600,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break-Aoe" Id="39621701-9b9b-40ac-8428-560e03e65ce2" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):3E7[9A]:" PrevActions="Interrupt">
                 <Actions>
@@ -8371,6 +8620,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8399,6 +8649,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8421,6 +8672,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="对称投掷" Id="194e4b60-f841-43e3-9ac5-2ca8d99c04d2" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A85:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8438,6 +8690,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="非对称投掷" Id="2dac7267-af32-4877-9085-dd1950061540" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A86:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8455,6 +8708,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="扇舞·终" Id="f14f43e7-8b78-4a24-a875-87acac8c45bc" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8B:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8472,6 +8726,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="婆罗多" Id="bace8237-409a-424a-b0e1-ed39de5b07b3" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8A:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8489,6 +8744,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="扇舞·急" Id="cb507412-5119-4007-b7a8-4a01de504a37" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):71C:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8506,6 +8762,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="流星之舞" Id="f3a9b420-1e60-4de5-be0a-f3a758e77b85" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8C:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -8523,6 +8780,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8545,6 +8803,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar Set" Id="1cb91d6e-dad4-4cd8-85ce-bee19c05828e" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -8553,6 +8812,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8704,6 +8964,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8735,6 +8996,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar" Id="ab36c4d3-8e47-44a8-b00e-a245ebf4fec3" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -8749,6 +9011,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Hotbar set" Id="a747a83c-b054-4822-abf4-6bd5f4d8e6e0" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -8757,6 +9020,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break" Id="e89b58fd-4fc0-4f0a-8e5e-c2201e11160d" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:E21|E27|E30):" PrevActions="Interrupt">
                 <Actions>
@@ -8773,6 +9037,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Break2" Id="2ae4005b-9969-4944-85c7-bf07e00bb8e5" RegularExpression="^.{15}(?:\w+ |)1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?:E25|4054):" PrevActions="Interrupt">
                 <Actions>
@@ -8789,6 +9054,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Reset2" Id="3b8365f2-3e9f-45e6-9eae-a96a6509574a" RegularExpression="(?&lt;name&gt;[^:]+?)的职业转换成了“暗黑骑士”。">
                 <Actions>
@@ -8802,6 +9068,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8820,6 +9087,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8909,6 +9177,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -8931,6 +9200,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9114,6 +9384,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${evar:超荷}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="RegexMatch" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Ngcd" Id="7d293d50-210e-48e8-bf07-419b1c72f4b2" RegularExpression="^.{14} \w+ 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;dan&gt;B[34]A|4075|B3[0C]|1CF[26]):" PeriodRefire="Deny" RefirePeriodExpression="100">
                 <Actions>
@@ -9398,6 +9669,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Ngcd-B" Id="b155963f-4be3-4060-963c-af6c12bdfde4" RegularExpression="^.{14} \w+ 1[56]:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;dan&gt;B[34]A|4075|B3[0C]|1CF6):" PeriodRefire="Deny" RefirePeriodExpression="100">
                 <Actions>
@@ -9533,6 +9805,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9555,6 +9828,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Break" Id="235cd342-7aa1-4277-a952-acdc3cc0b2e9" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;[^:]+?):(?&lt;bk&gt;1CF[345]|B3[2469]|64BA):" PrevActions="Interrupt">
                 <Actions>
@@ -9580,6 +9854,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Reset" Id="a5c8fe8c-5273-4209-886d-0b8a936b0b0c" RegularExpression="^.{15}(?:\w+ |)21:.{8}:4000001[02]|^.{15}(?:\w+ |)00:0039:距离战斗开始还有15秒！|^.{15}(?:\w+ |)00:0839:“.*?”任务结束" EditAutofire="True">
                 <Actions>
@@ -9593,6 +9868,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Mark" Id="032077d8-5ccd-4fd4-ad71-a05413a45dea" RegularExpression=".*" PeriodRefire="Deny" RefirePeriodExpression="86400000" EditAutofire="True">
                 <Actions>
@@ -9641,6 +9917,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="Hotbar set" Id="408ec433-1a4d-4e5f-9d60-95a297d4ba68" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num&gt;\d+)$">
                 <Actions>
@@ -9667,6 +9944,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9691,6 +9969,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9747,6 +10026,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="野火" Id="c58596cc-a948-4a57-aa48-3acbbe8ec3e4" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;[^:]+?):B3E:">
                 <Actions>
@@ -9762,6 +10042,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="Fire" Id="b683be43-4c02-4ff8-b8dd-0b6953ca7c31" RegularExpression="^.{14} \w+ 15:.{8}:(?&lt;CasterName&gt;.+?):(?&lt;fire&gt;1CF[345]|B3[249]|B36|64BA):">
                 <Actions>
@@ -9807,6 +10088,7 @@
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${evar:超荷}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="String" ConditionType="RegexMatch" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9950,6 +10232,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -9985,6 +10268,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10014,6 +10298,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${SourceName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10031,6 +10316,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10039,7 +10325,7 @@
             <Triggers>
               <Trigger Enabled="true" Name="量谱变化" Id="c130ffa4-0d81-4958-85ab-5af65b0c4d82" RegularExpression="^.{15}(?:\w+ |)1F:(?&lt;ID&gt;[^:]+?):(?&lt;partA&gt;[^:]+?):(?&lt;partB&gt;[^:]+?):(?&lt;partC&gt;[^:]+?):(?&lt;partD&gt;[^:]+?)$">
                 <Actions>
-                  <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/e ${func:padleft(48,8):${partA}} ${func:padleft(48,8):${partB}}" SoundRouting="None" TTSRouting="None" ActionType="NamedCallback">
+                  <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/e ${func:padleft(48,8):${partA}} ${func:padleft(48,8):${partB}}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                   <Action OrderNumber="2" DictVariableOp="Set" DictVariableValueType="Numeric" DictVariableName="变量字典" DictVariableKey="调色值" DictVariableValue="${func:hex2dec:${func:substring(4,2):${func:padleft(48,8):${partA}}}}" SoundRouting="None" TTSRouting="None" ActionType="DictVariable">
@@ -10139,6 +10425,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="填充 - 单插 - Aoe" Id="efc1f091-a144-42a3-a994-d73954f2faf0" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;迸裂|三重灾祸|星极核爆|炼狱之炎|[黄绿]宝石[迸裂之仪灾祸变]+)" PrevActions="Interrupt">
                 <Actions>
@@ -10152,6 +10439,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 黄宝石" Id="00378c21-6845-4012-adc1-907d87f54f59" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石召唤|土神召唤|土神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -10174,6 +10462,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 红宝石" Id="a453f3f3-b0e0-4426-a59f-11f450cbb366" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -10204,6 +10493,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="召唤 - 绿宝石" Id="2f36d7bb-d812-4fa8-ad3c-1f820a682678" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石召唤|风神召唤|风神召唤II)" PrevActions="Interrupt">
                 <Actions>
@@ -10234,6 +10524,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 绿" Id="07d7093a-cb53-4d1f-9c40-1e933a89c01e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:螺旋气流" PrevActions="Interrupt">
                 <Actions>
@@ -10281,6 +10572,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 红" Id="2eddedcc-7a63-463e-9b1a-a3522f15c1de" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(深红旋风|深红强袭)" PrevActions="Interrupt">
                 <Actions>
@@ -10343,6 +10635,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="星极 - 黄" Id="f6ae81e0-a42e-4071-aca5-923938d48600" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:山崩" PrevActions="Interrupt">
                 <Actions>
@@ -10410,6 +10703,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 红" Id="24afcfd6-5ef6-47d6-bfe2-549cd05dd4bf" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -10468,6 +10762,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 黄" Id="9fa6916e-79f7-4e86-ba52-b1e29544ae4a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -10520,6 +10815,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="宝石 - 绿" Id="0bb88e45-2300-470c-9e90-0886abce682a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变)" PrevActions="Interrupt">
                 <Actions>
@@ -10578,6 +10874,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="填充 - 单插 - One" Id="03a2509b-09ca-48c7-93bd-70c14a94cd5f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;毁灭|毁坏|毁荡|毁绝|星极脉冲|灵泉之炎|[黄绿]宝石[毁灭坏荡]+|深红旋风|深红强袭)" PrevActions="Interrupt">
                 <Actions>
@@ -10591,36 +10888,33 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
           <Folder Id="11981bfa-76df-4c41-b9bd-cfdfcd24f47b" Name="量谱" Enabled="true">
             <Folders />
             <Triggers>
-              <Trigger Enabled="true" Name="量谱" Id="01db4002-f67f-4761-ad90-e1ca446115cd" RegularExpression="^.{15}(?:\w+ |)1F:.{8}:(?&lt;gauge_smn_a&gt;\w+?):(?&lt;gauge_smn_b&gt;\w+?):(?&lt;gauge_smn_c&gt;\w+?):(?&lt;gauge_smn_d&gt;\w+?)$">
+              <Trigger Enabled="true" Name="量谱变化" Id="0631c244-25bd-47d2-b509-a5e82bc2b53a" RegularExpression="^.{15}(?:\w+ |)1F:(?&lt;ID&gt;[^:]+?):(?&lt;partA&gt;[^:]+?):(?&lt;partB&gt;[^:]+?):(?&lt;partC&gt;[^:]+?):(?&lt;partD&gt;[^:]+?)$">
                 <Actions>
-                  <Action OrderNumber="1" SoundRouting="None" TTSRouting="None" VariableOp="SetNumeric" VariableName="以太超流" VariableExpression="${func:hex2dec:${func:substring(7,1):${func:padleft(48,8):${gauge_smn_c}}}}%4" Enabled="False" ActionType="Variable" Asynchronous="False">
+                  <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/e ${func:padleft(48,8):${partA}} ${func:padleft(48,8):${partB}} ${partC} ${partD}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
-                  <Action OrderNumber="2" SoundRouting="None" TTSRouting="None" VariableOp="SetNumeric" VariableName="召唤兽层数" VariableExpression="${func:substring(1,1):${func:padleft(48,8):${gauge_smn_b}}}" Enabled="False" ActionType="Variable" Asynchronous="False">
+                  <Action OrderNumber="2" DictVariableOp="Set" DictVariableValueType="Numeric" DictVariableName="变量字典" DictVariableKey="召唤兽层数" DictVariableValue="${func:hex2dec:${func:substring(1,1):${func:padleft(48,8):${partB}}}}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="DictVariable">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
-                  <Action OrderNumber="3" SoundRouting="None" TTSRouting="None" VariableOp="SetNumeric" VariableName="召唤兽种类" VariableExpression="${func:substring(6,1):${func:padleft(48,8):${gauge_smn_c}}}" Enabled="False" ActionType="Variable" Asynchronous="False">
+                  <Action OrderNumber="3" DictVariableOp="Set" DictVariableValueType="Numeric" DictVariableName="变量字典" DictVariableKey="召唤兽种类" DictVariableValue="${func:hex2dec:${func:substring(6,1):${func:padleft(48,8):${partC}}}}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="DictVariable">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
-                  <Action OrderNumber="4" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="Placeholder" DebugLevel="None" Description="调试分割线" DescriptionOverride="True">
+                  <Action OrderNumber="4" DictVariableOp="Set" DictVariableValueType="Numeric" DictVariableName="变量字典" DictVariableKey="以太超流" DictVariableValue="${func:hex2dec:${func:substring(7,1):${func:padleft(48,8):${partC}}}}%4" SoundRouting="None" TTSRouting="None" ActionType="DictVariable">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
-                  <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/e keys: ${gauge_smn_a} ${gauge_smn_b} ${gauge_smn_c} ${gauge_smn_d}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="NamedCallback">
-                    <Condition Enabled="false" Grouping="Or" />
-                  </Action>
-                  <Action OrderNumber="6" NamedCallbackName="command" NamedCallbackParam="/e 龙鸟阶段: ${func:substring(6,1):${func:padleft(48,8):${gauge_smn_c}}} 宝宝种类：${func:floor:${numeric:${func:hex2dec:${func:substring(7,1):${func:padleft(48,8):${gauge_smn_c}}}}/4}} 灵攻次数： ${func:substring(1,1):${func:padleft(48,8):${gauge_smn_b}}} 豆子：${numeric:${func:hex2dec:${func:substring(7,1):${func:padleft(48,8):${gauge_smn_c}}}}%4}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="NamedCallback">
+                  <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/e ${func:dec2hex2:${func:hex2dec:${func:padleft(48,8):${partC}}}}" SoundRouting="None" TTSRouting="None" Enabled="False" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
                 </Actions>
-                <Condition Enabled="false" Grouping="And">
-                  <ConditionSingle Enabled="true" ExpressionL="${name}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
-                </Condition>
+                <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10643,6 +10937,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏" Id="79bb9f04-ed34-4c52-82be-8a8d068fbf27" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+?):(?&lt;num1&gt;\d+):(?&lt;num2&gt;\d+)$">
                 <Actions>
@@ -10657,6 +10952,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 能力" Id="046881b6-ac4d-4fed-9a22-c6fe865019cf" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -10677,6 +10973,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 单体" Id="b7351fa5-2096-4fa2-ae57-4e577cf26296" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -10685,6 +10982,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 群体" Id="55a9f7e5-06ea-4a3e-80fc-0c69b4acfb5e" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -10693,6 +10991,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="改变快捷栏 - 单群" Id="dd751b49-4e90-4a4a-8bc9-24a0702cddca" RegularExpression="^SetHotbar:(?&lt;skill&gt;.+)$">
                 <Actions>
@@ -10704,6 +11003,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10726,6 +11026,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="毁绝预备" Id="c0934c77-84f2-4881-8cea-4411afc47715" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8D:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -10743,6 +11044,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="螺旋气流预备" Id="fe407992-3eef-4d99-9051-800c507eef59" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A92:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -10760,6 +11062,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="深红旋风预备" Id="672e108a-2765-4b1a-9c83-e9e33ff1d2c7" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):AA4:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -10777,6 +11080,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="守护之光" Id="efdd280e-5e79-4da5-81bd-cda032fca339" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):A8E:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -10794,6 +11098,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Sequential="True" Name="山崩预备" Id="26090eb2-c73b-429c-ae87-6289982061af" RegularExpression="^.{15}(?:\w+ |)(?&lt;type&gt;1[AE]):B25:[^:]*:[^:]*:[^:]*:(?&lt;CasterName&gt;.+?):">
                 <Actions>
@@ -10816,6 +11121,7 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${CasterName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10831,6 +11137,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="以太 - 能量吸收|能量抽取" Id="aa4b6615-f98b-4b10-b9e3-5e86249dc506" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(能量吸收|能量抽取)" PrevActions="Interrupt">
                 <Actions>
@@ -10858,6 +11165,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="灼热之光" Id="f94b934e-3e73-4fa8-940d-e29b0635363e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:灼热之光" PrevActions="Interrupt">
                 <Actions>
@@ -10876,6 +11184,7 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="附体 - 龙神迸发|不死鸟迸发" Id="f49bda0a-db57-482e-a374-3cb3bfc44712" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(龙神迸发|不死鸟迸发)">
                 <Actions>
@@ -10884,6 +11193,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="更新能力技 - 群体" Id="8dcbf549-a9a0-431d-baab-7e027074722d" RegularExpression="^WhichSkill:" PrevActions="Interrupt">
                 <Actions>
@@ -10921,6 +11231,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
               <Trigger Enabled="true" Name="更新能力技 - 单体" Id="50a56614-2b9e-4d3b-9dc0-e03432b69fdd" RegularExpression="^WhichSkill:" PrevActions="Interrupt">
                 <Actions>
@@ -10958,6 +11269,7 @@
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="Or" />
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
@@ -10979,6 +11291,7 @@
             <Condition Enabled="true" Grouping="Or">
               <ConditionSingle Enabled="true" ExpressionL="${DestName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
+            <Conditions />
           </Trigger>
           <Trigger Enabled="true" Name="状态消除" Id="68b045ef-6777-46fd-8a68-bed10c584013" RegularExpression="^.{14} StatusRemove 1E:(?&lt;StatusId&gt;[^:]+?):(?&lt;StatusName&gt;[^:]+?):(?&lt;StatusTime&gt;[^:]+?):(?&lt;SourceId&gt;.{8}):(?&lt;SourceName&gt;[^:]+?):(?&lt;DestId&gt;.{8}):(?&lt;DestName&gt;[^:]+?):([^:]+?):([^:]+?):([^:]+?)">
             <Actions>
@@ -10992,6 +11305,7 @@
             <Condition Enabled="true" Grouping="Or">
               <ConditionSingle Enabled="true" ExpressionL="${DestName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
+            <Conditions />
           </Trigger>
           <Trigger Enabled="true" Source="FFXIVNetwork" Name="职业切换-字典初始化" Id="a051219e-412a-4de9-9b1c-a0dc9b55cfb0" RegularExpression="^03\|[^|]*\|(?&lt;playerID&gt;[^|]*)\|(?&lt;playerName&gt;[^|]*)\|(?&lt;playerJob&gt;[^|]*)\|">
             <Actions>
@@ -11008,6 +11322,7 @@
             <Condition Enabled="true" Grouping="And">
               <ConditionSingle Enabled="true" ExpressionL="${playerName}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
             </Condition>
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
@@ -11024,6 +11339,7 @@
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
       </Trigger>
     </Triggers>
   </ExportedFolder>
